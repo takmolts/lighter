@@ -1,0 +1,63 @@
+name: Update Leaderboard
+
+on:
+  schedule:
+    - cron: '0 * * * *' # 毎時実行
+  workflow_dispatch: # 手動実行可能
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install aiohttp discord.py python-dotenv
+
+      - name: Fetch latest data
+        run: python fetch_data.py
+
+      - name: Send Discord notification
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          RUN_ONCE: "true"
+        run: python bot.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data.json
+          git commit -m "Auto-update leaderboard data [skip ci]" || echo "No changes to commit"
+          git push
+
+      - name: Notify failure to Discord
+        if: failure()
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+        run: |
+          python -c "
+          import os, discord, asyncio
+          async def notify():
+              client = discord.Client(intents=discord.Intents.default())
+              async with client:
+                  @client.event
+                  async def on_ready():
+                      channel = client.get_channel(int(os.getenv('DISCORD_CHANNEL_ID')))
+                      if channel:
+                          embed = discord.Embed(title='⚠️ 警告: ランキング更新失敗', description='GitHub Actions でのランキング更新に失敗しました。ログを確認してください。', color=0xff0000)
+                          await channel.send(embed=embed)
+                      await client.close()
+                  await client.start(os.getenv('DISCORD_TOKEN'))
+          asyncio.run(notify())
+          "

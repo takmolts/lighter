@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "fetchedAtUTC": "2026-03-21T17:57:24.377021Z",
+    "totalCount": 1,
+    "totalVolumeUSDT": 9.998263
+  },
+  "participants": [
+    {
+      "address": "0x59dF4451216a08912ef7d7f5B882CB4e6644927e",
+      "displayName": "TestTrader",
+      "tradingVolume": 9.998263,
+      "roi": 0.0,
+      "pnl": 0,
+      "score": 0,
+      "rank": 1
+    }
+  ]
+}

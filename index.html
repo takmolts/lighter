@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lighter Ranking Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="animate-fade-in">
+      <h1>Lighter Ranking Dashboard</h1>
+      <p class="subtitle">ロイ（ROI）と取引量をリアルタイムでトラッキング</p>
+    </header>
+
+    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.1s;">
+      <div class="controls">
+        <input type="text" id="address-input" placeholder="L1アドレス（0x...）を入力" />
+        <button onclick="addAddress()">参加者を追加</button>
+        <button onclick="fetchData()" style="background: rgba(255,255,255,0.1); border: 1px solid var(--glass-border);">更新</button>
+      </div>
+      <div id="status" class="status">データを読み込んでいます...</div>
+    </div>
+
+    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.2s;">
+      <table class="leaderboard-table">
+        <thead>
+          <tr>
+            <th>ランク</th>
+            <th>トレーダー</th>
+            <th>ROI</th>
+            <th>取引量</th>
+            <th>スコア</th>
+            <th>賞金 (LIT)</th>
+          </tr>
+        </thead>
+        <tbody id="leaderboard-body">
+          <!-- JSで動的に追加されます -->
+        </tbody>
+      </table>
+    </div>
+
+    <footer class="animate-fade-in" style="text-align: center; color: var(--text-secondary); font-size: 0.8rem; margin-top: 40px; animation-delay: 0.3s;">
+      Powered by Lighter Explorer API | <a href="https://github.com/tasato/lighter-dashboard" style="color: var(--accent-color); text-decoration: none;">GitHub で公開する</a>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
