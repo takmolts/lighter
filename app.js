@@ -86,7 +86,7 @@ async function fetchStatsForAddress(address) {
 
     return {
       address,
-      volume: totalVolume,
+      tradingVolume: totalVolume,
       roi: roi,
       pnl: netProfit,
       score: score || (totalVolume * 0.01) // デモ用に取引量の1%をPnLとして仮定
@@ -108,12 +108,16 @@ function renderLeaderboard(data) {
     const displayAddr = `${item.address.substring(0, 6)}...${item.address.substring(item.address.length - 4)}`;
     const roiClass = item.roi >= 0 ? "roi-positive" : "roi-negative";
 
+    const vol = item.tradingVolume || item.volume || 0;
+    const score = item.score || 0;
+    const roi = item.roi || 0;
+
     tr.innerHTML = `
       <td>${index + 1}</td>
       <td>${displayAddr}</td>
-      <td class="${roiClass}">${item.roi.toFixed(2)}%</td>
-      <td>$${item.volume.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
-      <td>${item.score.toLocaleString(undefined, {maximumFractionDigits: 2})}</td>
+      <td class="${roiClass}">${roi.toFixed(2)}%</td>
+      <td>$${vol.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
+      <td>${score.toLocaleString(undefined, {maximumFractionDigits: 2})}</td>
       <td>-</td>
     `;
     body.appendChild(tr);
