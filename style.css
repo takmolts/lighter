@@ -164,3 +164,50 @@ button:active {
 .animate-fade-in {
   animation: fadeIn 0.5s ease-out forwards;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p.subtitle {
+    font-size: 0.9rem;
+  }
+
+  .controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .dashboard-card {
+    padding: 16px;
+  }
+
+  /* Table responsive wrapper */
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -16px; /* Offset card padding */
+    padding: 0 16px;
+  }
+
+  .leaderboard-table th, 
+  .leaderboard-table td {
+    padding: 12px 10px;
+    font-size: 0.85rem;
+    white-space: nowrap; /* Prevent wrapping in cells */
+  }
+
+  .leaderboard-table td:first-child {
+    padding-left: 16px;
+  }
+}
