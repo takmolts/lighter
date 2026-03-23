@@ -1,6 +1,9 @@
 const EXPLORER_API_BASE = "https://explorer.elliot.ai/api";
 const DISPLAY_COUNT = 10;
 
+// 大会開始日時（これ以降のログのみ集計対象）
+const COMPETITION_START = new Date("2026-04-01T00:00:00Z");
+
 // 初期アドレスリスト（ユーザーが追加可能）
 let addresses = [
   "0x59dF4451216a08912ef7d7f5B882CB4e6644927e",
@@ -50,6 +53,9 @@ async function fetchStatsForAddress(address) {
     let realizedPnL = 0;
 
     logs.forEach(log => {
+      // 大会開始前のログはスキップ
+      if (log.time && new Date(log.time) < COMPETITION_START) return;
+
       const type = log.pubdata_type;
       const data = log.pubdata;
 

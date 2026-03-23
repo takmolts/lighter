@@ -7,6 +7,9 @@ from datetime import datetime, timezone
 EXPLORER_API_BASE = "https://explorer.elliot.ai/api"
 LIGHTER_API_BASE = "https://mainnet.zklighter.elliot.ai/api/v1"
 
+# 大会開始日時（これ以降のログのみ集計対象）
+COMPETITION_START = datetime(2026, 4, 1, 0, 0, 0, tzinfo=timezone.utc)
+
 # 参加者リスト（L1アドレス: ユーザー名）
 PARTICIPANTS = {
     "0x59dF4451216a08912ef7d7f5B882CB4e6644927e": "ExampleTrader",
@@ -27,8 +30,14 @@ async def get_stats_for_address(session, address, name):
     total_deposits = 0
     total_withdrawals = 0
     
-    # ログから指標を計算
+    # ログから指標を計算（大会開始以降のみ）
     for log in logs:
+        log_time = log.get("time", "")
+        if log_time:
+            dt = datetime.fromisoformat(log_time.replace("Z", "+00:00"))
+            if dt < COMPETITION_START:
+                continue
+
         pubdata_type = log.get("pubdata_type")
         data = log.get("pubdata", {})
         
