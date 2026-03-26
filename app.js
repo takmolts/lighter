@@ -19,7 +19,7 @@ async function fetchData() {
 
     // Volumeランキング（Volume降順）
     const volSorted = [...participants].sort((a, b) => b.tradingVolume - a.tradingVolume);
-    renderVolRanking(volSorted);
+    renderVolRanking(volSorted, jsonData.meta.totalVolumeUSDT);
 
     statusEl.innerText = `最終更新: ${new Date(jsonData.meta.fetchedAtUTC).toLocaleString()}`;
   } catch (error) {
@@ -60,7 +60,12 @@ function renderRoiRanking(data) {
   });
 }
 
-function renderVolRanking(data) {
+function renderVolRanking(data, totalVolume) {
+  const totalEl = document.getElementById("vol-total");
+  if (totalEl && totalVolume != null) {
+    totalEl.textContent = `$${totalVolume.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+  }
+
   const body = document.getElementById("vol-ranking-body");
   body.innerHTML = "";
 
