@@ -1,0 +1,8 @@
+{
+  "0x59dF4451216a08912ef7d7f5B882CB4e6644927e": {
+    "name": "ExampleTrader",
+    "x_account": "@example_trader",
+    "initial_balance": 9.999087,
+    "joined_at": "2026-03-23T00:00:00Z"
+  }
+}
