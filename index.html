@@ -13,32 +13,54 @@
   <div class="container">
     <header class="animate-fade-in">
       <h1>Lighter Ranking Dashboard</h1>
-      <p class="subtitle">ロイ（ROI）と取引量をリアルタイムでトラッキング</p>
+      <p class="subtitle">ROI と取引量をリアルタイムでトラッキング</p>
     </header>
 
-    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.1s;">
-      <div id="status" class="status">データを読み込んでいます...</div>
+    <!-- 大会概要（後日追加） -->
+    <div id="competition-info" class="dashboard-card animate-fade-in" style="animation-delay: 0.1s;">
+      <p style="color: var(--text-secondary);">大会概要は後日掲載予定です。</p>
+    </div>
+
+    <div id="status" class="status animate-fade-in" style="animation-delay: 0.15s;">データを読み込んでいます...</div>
+
+    <!-- ROI ランキング -->
+    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.2s;">
+      <h2 class="section-title">ROI Ranking</h2>
       <div class="table-responsive">
         <table class="leaderboard-table">
           <thead>
             <tr>
-              <th>ランク</th>
-              <th>トレーダー</th>
+              <th>Rank</th>
+              <th>Trader</th>
               <th>ROI</th>
-              <th>取引量</th>
-              <th>スコア</th>
-              <th>賞金 (LIT)</th>
+              <th>PnL</th>
             </tr>
           </thead>
-          <tbody id="leaderboard-body">
-            <!-- JSで動的に追加されます -->
-          </tbody>
+          <tbody id="roi-ranking-body"></tbody>
         </table>
       </div>
     </div>
 
-    <footer class="animate-fade-in" style="text-align: center; color: var(--text-secondary); font-size: 0.8rem; margin-top: 40px; animation-delay: 0.3s;">
-      Powered by Lighter Explorer API | <a href="https://github.com/tasato/lighter-dashboard" style="color: var(--accent-color); text-decoration: none;">GitHub で公開する</a>
+    <!-- Volume ランキング -->
+    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.3s;">
+      <h2 class="section-title">Volume Ranking</h2>
+      <div class="table-responsive">
+        <table class="leaderboard-table">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Trader</th>
+              <th>Volume</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody id="vol-ranking-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer class="animate-fade-in" style="text-align: center; color: var(--text-secondary); font-size: 0.8rem; margin-top: 40px; animation-delay: 0.4s;">
+      Powered by Lighter Explorer API
     </footer>
   </div>
 
