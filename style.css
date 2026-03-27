@@ -297,24 +297,22 @@ button:active {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.tier-tab--active {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
-  background: rgba(88, 166, 255, 0.1);
-}
+/* ティア色: 50M以上=赤, 30M以上=緑, 30M未満=青 */
+.tier-tab--red   { border-color: #f85149; color: #f85149; }
+.tier-tab--green { border-color: #3fb950; color: #3fb950; }
+.tier-tab--blue  { border-color: #58a6ff; color: #58a6ff; }
 
-.tier-tab--selected {
-  border-color: var(--text-primary);
-  color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.08);
-}
+.tier-tab--red:hover   { background: rgba(248, 81, 73, 0.1); }
+.tier-tab--green:hover { background: rgba(63, 185, 80, 0.1); }
+.tier-tab--blue:hover  { background: rgba(88, 166, 255, 0.1); }
 
-.tier-tab--active.tier-tab--selected,
-.tier-tab--active:not(.tier-tab--selected) {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
-  background: rgba(88, 166, 255, 0.1);
-}
+.tier-tab--red.tier-tab--active   { background: rgba(248, 81, 73, 0.15); }
+.tier-tab--green.tier-tab--active { background: rgba(63, 185, 80, 0.15); }
+.tier-tab--blue.tier-tab--active  { background: rgba(88, 166, 255, 0.15); }
+
+.tier-tab--red.tier-tab--selected   { background: rgba(248, 81, 73, 0.3); color: #fff; }
+.tier-tab--green.tier-tab--selected { background: rgba(63, 185, 80, 0.3); color: #fff; }
+.tier-tab--blue.tier-tab--selected  { background: rgba(88, 166, 255, 0.3); color: #fff; }
 
 .reward-pair {
   display: grid;
