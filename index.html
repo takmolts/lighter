@@ -16,9 +16,14 @@
       <p class="subtitle">ROI と取引量をリアルタイムでトラッキング</p>
     </header>
 
-    <!-- 大会概要（後日追加） -->
+    <!-- 大会概要 -->
     <div id="competition-info" class="dashboard-card animate-fade-in" style="animation-delay: 0.1s;">
-      <p style="color: var(--text-secondary);">大会概要は後日掲載予定です。</p>
+      <img src="assets/banner.png" alt="大会バナー" class="banner-thumb" onclick="document.getElementById('banner-modal').classList.add('active')">
+    </div>
+
+    <!-- バナー拡大表示 -->
+    <div id="banner-modal" class="modal-overlay" onclick="this.classList.remove('active')">
+      <img src="assets/banner.png" alt="大会バナー（拡大）" class="modal-image">
     </div>
 
     <div id="status" class="status animate-fade-in" style="animation-delay: 0.15s;">データを読み込んでいます...</div>
