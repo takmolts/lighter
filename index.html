@@ -40,7 +40,18 @@
       <img src="assets/banner.png" alt="大会バナー（拡大）" class="modal-image">
     </div>
 
-    <div id="status" class="status animate-fade-in" style="animation-delay: 0.15s;">データを読み込んでいます...</div>
+    <!-- リワードテーブル -->
+    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.14s;">
+      <h2 class="section-title">Reward Table</h2>
+      <p style="color: var(--text-secondary); margin: 0 0 4px 0; font-size: 0.85rem;">
+        現在の Total Volume: <span id="reward-vol" style="color: var(--text-primary); font-weight: 600;">—</span>
+      </p>
+      <div class="tier-tabs" id="tier-tabs"></div>
+      <div class="reward-tables" id="reward-tables"></div>
+      <p style="color: var(--text-secondary); font-size: 0.75rem; margin-top: 12px;">※賞品は近江牛ギフトコード or 同額のステーブルコインから選択可能です。</p>
+    </div>
+
+    <div id="status" class="status animate-fade-in" style="animation-delay: 0.18s;">データを読み込んでいます...</div>
 
     <!-- ROI ランキング -->
     <div class="dashboard-card animate-fade-in" style="animation-delay: 0.2s;">

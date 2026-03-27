@@ -215,6 +215,90 @@ button:active {
   color: var(--text-secondary);
 }
 
+/* Reward Table */
+.tier-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.tier-tab {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tier-tab:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.tier-tab--active {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  background: rgba(88, 166, 255, 0.1);
+}
+
+.tier-tab--selected {
+  border-color: var(--text-primary);
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.tier-tab--active.tier-tab--selected,
+.tier-tab--active:not(.tier-tab--selected) {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  background: rgba(88, 166, 255, 0.1);
+}
+
+.reward-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.reward-col h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.reward-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.reward-table th {
+  text-align: left;
+  padding: 6px 10px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.reward-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.reward-table td:first-child {
+  color: var(--accent-color);
+  font-weight: 600;
+  width: 50px;
+}
+
 /* Banner */
 .banner-thumb {
   width: 100%;
@@ -305,5 +389,25 @@ button:active {
 
   .leaderboard-table td:first-child {
     padding-left: 16px;
+  }
+
+  .tier-tabs {
+    gap: 6px;
+  }
+
+  .tier-tab {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+  }
+
+  .reward-pair {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .reward-table th,
+  .reward-table td {
+    padding: 5px 8px;
+    font-size: 0.8rem;
   }
 }

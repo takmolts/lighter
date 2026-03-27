@@ -1,3 +1,96 @@
+// リワードテーブルデータ（3ティア）
+const REWARD_TIERS = [
+  {
+    label: "Total Volume > $50M",
+    threshold: 50_000_000,
+    roi: [80000, 50000, 40000, 30000, 20000, 10000, 10000, 10000, 10000, 10000],
+    vol: [70000, 50000, 40000, 30000, 20000, 10000, 10000, 10000, 10000, 10000],
+  },
+  {
+    label: "Total Volume > $30M",
+    threshold: 30_000_000,
+    roi: [50000, 40000, 30000, 10000, 10000, 10000, 10000, 10000, 10000, 10000],
+    vol: [50000, 40000, 30000, 10000, 10000, 10000, 10000, 10000, 10000, 10000],
+  },
+  {
+    label: "Total Volume < $30M",
+    threshold: 0,
+    roi: [50000, 40000, 30000, 10000, 10000, 10000],
+    vol: [50000, 40000, 30000, 10000, 10000, 10000],
+  },
+];
+
+function getActiveTierIndex(totalVolume) {
+  if (totalVolume >= 50_000_000) return 0;
+  if (totalVolume >= 30_000_000) return 1;
+  return 2;
+}
+
+function renderRewardTables(totalVolume) {
+  const volEl = document.getElementById("reward-vol");
+  if (volEl && totalVolume != null) {
+    volEl.textContent = `$${totalVolume.toLocaleString(undefined, { maximumFractionDigits: 0 })}`;
+  }
+
+  const activeIdx = totalVolume != null ? getActiveTierIndex(totalVolume) : -1;
+
+  // タブ
+  const tabsEl = document.getElementById("tier-tabs");
+  tabsEl.innerHTML = REWARD_TIERS.map((tier, i) =>
+    `<button class="tier-tab${i === activeIdx ? " tier-tab--active" : ""}" data-tier="${i}">${tier.label}${i === activeIdx ? " ◀ 現在" : ""}</button>`
+  ).join("");
+
+  // テーブル
+  const tablesEl = document.getElementById("reward-tables");
+  renderTierDetail(tablesEl, activeIdx >= 0 ? activeIdx : 0);
+
+  tabsEl.addEventListener("click", (e) => {
+    const btn = e.target.closest(".tier-tab");
+    if (!btn) return;
+    const idx = parseInt(btn.dataset.tier, 10);
+    tabsEl.querySelectorAll(".tier-tab").forEach((b, i) => {
+      b.classList.toggle("tier-tab--selected", i === idx);
+    });
+    renderTierDetail(tablesEl, idx);
+  });
+}
+
+function renderTierDetail(container, tierIdx) {
+  const tier = REWARD_TIERS[tierIdx];
+
+  function makeRows(arr) {
+    const groups = [];
+    let i = 0;
+    while (i < arr.length) {
+      const yen = arr[i];
+      let j = i;
+      while (j < arr.length && arr[j] === yen) j++;
+      const rankLabel = j - 1 === i ? `${i + 1}` : `${i + 1}-${j}`;
+      groups.push(`<tr><td>${rankLabel}</td><td>¥${yen.toLocaleString()}</td><td>Wagyu gift</td></tr>`);
+      i = j;
+    }
+    return groups.join("");
+  }
+
+  container.innerHTML = `
+    <div class="reward-pair">
+      <div class="reward-col">
+        <h3>ROI 部門</h3>
+        <table class="reward-table">
+          <thead><tr><th>Rank</th><th>賞品額</th><th>賞品</th></tr></thead>
+          <tbody>${makeRows(tier.roi)}</tbody>
+        </table>
+      </div>
+      <div class="reward-col">
+        <h3>Trading Vol. 部門</h3>
+        <table class="reward-table">
+          <thead><tr><th>Rank</th><th>賞品額</th><th>賞品</th></tr></thead>
+          <tbody>${makeRows(tier.vol)}</tbody>
+        </table>
+      </div>
+    </div>`;
+}
+
 async function fetchData() {
   const statusEl = document.getElementById("status");
   statusEl.innerText = "データを取得しています...";
@@ -18,8 +111,12 @@ async function fetchData() {
     renderRoiRanking(roiSorted);
 
     // Volumeランキング（Volume降順）
+    const totalVolume = jsonData.meta.totalVolumeUSDT;
     const volSorted = [...participants].sort((a, b) => b.tradingVolume - a.tradingVolume);
-    renderVolRanking(volSorted, jsonData.meta.totalVolumeUSDT);
+    renderVolRanking(volSorted, totalVolume);
+
+    // リワードテーブル
+    renderRewardTables(totalVolume);
 
     statusEl.innerText = `最終更新: ${new Date(jsonData.meta.fetchedAtUTC).toLocaleString()}`;
   } catch (error) {
@@ -87,5 +184,8 @@ function renderVolRanking(data, totalVolume) {
   });
 }
 
-// 起動時にデータを取得
-window.onload = fetchData;
+// 起動時にリワードテーブルをデフォルト表示し、データを取得
+window.onload = () => {
+  renderRewardTables(null);
+  fetchData();
+};
