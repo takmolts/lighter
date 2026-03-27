@@ -47,7 +47,7 @@ function renderRewardTables(totalVolume) {
   const tabsEl = document.getElementById("tier-tabs");
   const tierColors = ["tier-tab--red", "tier-tab--green", "tier-tab--blue"];
   tabsEl.innerHTML = REWARD_TIERS.map((tier, i) =>
-    `<button class="tier-tab ${tierColors[i]}${i === activeIdx ? " tier-tab--active" : ""}" data-tier="${i}">${tier.label}${i === activeIdx ? " ◀ 現在" : ""}</button>`
+    `<button class="tier-tab ${tierColors[i]}${i === activeIdx ? " tier-tab--active tier-tab--selected" : ""}" data-tier="${i}">${tier.label}${i === activeIdx ? " ◀ 現在" : ""}</button>`
   ).join("");
 
   // テーブル
