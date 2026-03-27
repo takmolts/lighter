@@ -162,10 +162,63 @@ button:active {
   margin-bottom: 20px;
 }
 
+/* Info / Rules */
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+
+.info-list li {
+  padding: 4px 0;
+  color: var(--text-primary);
+}
+
+.info-list li::before {
+  content: "・";
+  color: var(--accent-color);
+}
+
+.info-list a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.info-list a:hover {
+  text-decoration: underline;
+}
+
+.info-note {
+  color: #f0883e;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.rules-section {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.rules-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rules-list li {
+  padding: 3px 0;
+  line-height: 1.5;
+}
+
+.rules-list li::before {
+  content: "・";
+  color: var(--text-secondary);
+}
+
 /* Banner */
 .banner-thumb {
   width: 100%;
-  max-width: 300px;
+  max-width: 450px;
   display: block;
   margin: 0 auto;
   border-radius: 8px;

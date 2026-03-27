@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lighter Ranking Dashboard</title>
+  <title>Wagyu Bull Run Lighter Cup</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +12,26 @@
 <body>
   <div class="container">
     <header class="animate-fade-in">
-      <h1>Lighter Ranking Dashboard</h1>
+      <h1>Wagyu Bull Run Lighter Cup</h1>
       <p class="subtitle">ROI と取引量をリアルタイムでトラッキング</p>
     </header>
 
-    <!-- 大会概要 -->
-    <div id="competition-info" class="dashboard-card animate-fade-in" style="animation-delay: 0.1s;">
+    <!-- 大会概要・取引条件 -->
+    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.12s;">
+      <h2 class="section-title">大会概要</h2>
+      <ul class="info-list">
+        <li>エントリー期間：3月31日〜4月20日 23:59 JST</li>
+        <li>大会期間：4月7日〜4月20日 23:59 JST</li>
+        <li>大会エントリーは<a href="https://xn--url-kc4btl5iwc7k/" target="_blank" rel="noopener">こちらのフォーム</a>より行ってください。</li>
+      </ul>
+      <p class="info-note">※賞品発送連絡のためフォーム記入時間違いがないようご注意ください。</p>
+
+      <h2 class="section-title" style="margin-top: 20px;">取引条件</h2>
+      <ul class="info-list">
+        <li>最低入金額は $200 となります。</li>
+        <li>以下のリファラルリンクより新規登録したアカウントのモバイルアプリでの取引のみが対象となります。<br>
+          <a href="https://xn--lighterbb-6f4hc49ehx4d/" target="_blank" rel="noopener">https://xn--lighterbb-6f4hc49ehx4d/</a></li>
+      </ul>
       <img src="assets/banner.png" alt="大会バナー" class="banner-thumb" onclick="document.getElementById('banner-modal').classList.add('active')">
     </div>
 
@@ -65,7 +79,28 @@
       </div>
     </div>
 
-    <footer class="animate-fade-in" style="text-align: center; color: var(--text-secondary); font-size: 0.8rem; margin-top: 40px; animation-delay: 0.4s;">
+    <!-- 大会規約 -->
+    <div class="dashboard-card rules-section animate-fade-in" style="animation-delay: 0.4s;">
+      <h2 class="section-title">大会規約</h2>
+      <ul class="rules-list">
+        <li>開催期間は3月31日〜4月20日 23:59 JSTとなります。</li>
+        <li>最低入金額は200 USDCとなります。</li>
+        <li>モバイルアプリでの取引がランキング対象となります。</li>
+        <li>Lighterのレビューによりウォッシュトレードと判断された取引はランキング対象外となります。</li>
+        <li>ギフトコードはwagyu internationalの近江牛と引き換えることができます。</li>
+        <li>賞品発送連絡はXのDMを通じてbb_jpdaoより連絡します。</li>
+        <li>Xで連絡がとれない受賞者は送付時点レートで同額のステーブルを提出されたウォレットへ送付します。</li>
+        <li>海外在住の受賞者は送付時点レートで同額のステーブルを提出されたウォレットへ送付します。</li>
+        <li>本大会は、仮想通貨取引の技術向上と楽しみを目的としたイベントです。</li>
+        <li>実際の資金を用いたトレードが行われますが参加者自身の責任において参加ください。</li>
+        <li>仮想通貨の価格は常に変動しており、元本の損失を含むリスクがあります。運営は取引による損失やトラブル等について一切の責任を負いません。</li>
+        <li>Lighterの利用規約や法令を遵守のうえ、ご参加ください。規約違反が確認された場合は、参加資格の剥奪や賞品授与の取り消しとなる場合があります。</li>
+        <li>本イベントの内容やルールは、予告なく変更・中止となる場合があります。あらかじめご了承ください。</li>
+        <li>同一人物の複数アカウントでの参加、複数口座間の両建て等の不正行為が確認された場合は、順位や賞品授与の対象から除外します。</li>
+      </ul>
+    </div>
+
+    <footer class="animate-fade-in" style="text-align: center; color: var(--text-secondary); font-size: 0.8rem; margin-top: 40px; animation-delay: 0.5s;">
       Powered by Lighter Explorer API
     </footer>
   </div>
