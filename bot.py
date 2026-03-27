@@ -49,23 +49,23 @@ def build_lighter_embeds(data):
 
     embed.add_field(name="👥 現在の参加者数", value=f"**{meta.get('totalCount', 0)}**人", inline=False)
 
-    # ROIランキング (上位5名)
-    top_roi = sorted(participants, key=lambda x: x["roi"], reverse=True)[:5]
+    # ROIランキング (上位15名)
+    top_roi = sorted(participants, key=lambda x: x["roi"], reverse=True)[:15]
     roi_lines = []
     for p in top_roi:
         line = f"{_medal(p['rank'])} {_fmt_roi(p['roi'])} - {p['displayName']}"
         if p['rank'] <= 3: line = f"**{line}**"
         roi_lines.append(line)
-    embed.add_field(name="📈 ROIランキング (Top 5)", value="\n".join(roi_lines) or "データなし", inline=False)
+    embed.add_field(name="📈 ROIランキング (Top 15)", value="\n".join(roi_lines) or "データなし", inline=False)
 
-    # 取引量ランキング (上位5名)
-    top_vol = sorted(participants, key=lambda x: x["tradingVolume"], reverse=True)[:5]
+    # 取引量ランキング (上位15名)
+    top_vol = sorted(participants, key=lambda x: x["tradingVolume"], reverse=True)[:15]
     vol_lines = []
     for p in top_vol:
         line = f"{_medal(p['rank'])} {_fmt_vol(p['tradingVolume'])} - {p['displayName']}"
         if p['rank'] <= 3: line = f"**{line}**"
         vol_lines.append(line)
-    embed.add_field(name="💰 Volumeランキング (Top 5)", value="\n".join(vol_lines) or "データなし", inline=False)
+    embed.add_field(name="💰 Volumeランキング (Top 15)", value="\n".join(vol_lines) or "データなし", inline=False)
 
     embed.set_footer(text=f"checked: {updated_str}")
     return [embed]
