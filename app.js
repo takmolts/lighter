@@ -22,6 +22,7 @@ const REWARD_TIERS = [
 
 const VOLUME_QUALIFY_THRESHOLD = 10_000;
 const RANK_MEDALS = ["🥇", "🥈", "🥉"];
+const INITIAL_DISPLAY_COUNT = 20;
 
 function getActiveTierIndex(totalVolume) {
   if (totalVolume >= 50_000_000) return 0;
@@ -147,14 +148,41 @@ function traderCell(item) {
   return `${nameLabel}${badge}${xLink ? `<br>${xLink}` : ""}`;
 }
 
-function renderRoiRanking(data, prizeCount) {
-  const body = document.getElementById("roi-ranking-body");
-  body.innerHTML = "";
+function buildPageTabs(container, totalCount, activePage, onSelect) {
+  const pageSize = INITIAL_DISPLAY_COUNT;
+  const pageCount = Math.ceil(totalCount / pageSize);
+  if (pageCount <= 1) return;
 
-  data.forEach((item, index) => {
+  let tabsEl = container.querySelector(".page-tabs");
+  if (!tabsEl) {
+    tabsEl = document.createElement("div");
+    tabsEl.className = "page-tabs";
+    container.querySelector(".table-responsive").before(tabsEl);
+  }
+
+  tabsEl.innerHTML = Array.from({ length: pageCount }, (_, i) => {
+    const from = i * pageSize + 1;
+    const to = Math.min((i + 1) * pageSize, totalCount);
+    return `<button class="page-tab${i === activePage ? " page-tab--active" : ""}" data-page="${i}">${from}-${to}</button>`;
+  }).join("");
+
+  tabsEl.onclick = (e) => {
+    const btn = e.target.closest(".page-tab");
+    if (!btn) return;
+    onSelect(parseInt(btn.dataset.page, 10));
+  };
+}
+
+function renderRoiPage(body, data, page, prizeCount) {
+  body.innerHTML = "";
+  const start = page * INITIAL_DISPLAY_COUNT;
+  const slice = data.slice(start, start + INITIAL_DISPLAY_COUNT);
+
+  slice.forEach((item, i) => {
+    const index = start + i;
     const tr = document.createElement("tr");
     tr.className = "animate-fade-in";
-    tr.style.animationDelay = `${index * 0.05}s`;
+    tr.style.animationDelay = `${i * 0.03}s`;
     if (index < prizeCount) tr.classList.add("rank-prize");
 
     const roiClass = item.roi >= 0 ? "roi-positive" : "roi-negative";
@@ -171,19 +199,27 @@ function renderRoiRanking(data, prizeCount) {
   });
 }
 
-function renderVolRanking(data, totalVolume, prizeCount) {
-  const totalEl = document.getElementById("vol-total");
-  if (totalEl && totalVolume != null) {
-    totalEl.textContent = `$${totalVolume.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
-  }
+function renderRoiRanking(data, prizeCount) {
+  const body = document.getElementById("roi-ranking-body");
+  const card = body.closest(".dashboard-card");
 
-  const body = document.getElementById("vol-ranking-body");
+  const showPage = (page) => {
+    renderRoiPage(body, data, page, prizeCount);
+    buildPageTabs(card, data.length, page, showPage);
+  };
+  showPage(0);
+}
+
+function renderVolPage(body, data, page, prizeCount) {
   body.innerHTML = "";
+  const start = page * INITIAL_DISPLAY_COUNT;
+  const slice = data.slice(start, start + INITIAL_DISPLAY_COUNT);
 
-  data.forEach((item, index) => {
+  slice.forEach((item, i) => {
+    const index = start + i;
     const tr = document.createElement("tr");
     tr.className = "animate-fade-in";
-    tr.style.animationDelay = `${index * 0.05}s`;
+    tr.style.animationDelay = `${i * 0.03}s`;
     if (index < prizeCount) tr.classList.add("rank-prize");
 
     const vol = item.tradingVolume || 0;
@@ -195,6 +231,22 @@ function renderVolRanking(data, totalVolume, prizeCount) {
     `;
     body.appendChild(tr);
   });
+}
+
+function renderVolRanking(data, totalVolume, prizeCount) {
+  const totalEl = document.getElementById("vol-total");
+  if (totalEl && totalVolume != null) {
+    totalEl.textContent = `$${totalVolume.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+  }
+
+  const body = document.getElementById("vol-ranking-body");
+  const card = body.closest(".dashboard-card");
+
+  const showPage = (page) => {
+    renderVolPage(body, data, page, prizeCount);
+    buildPageTabs(card, data.length, page, showPage);
+  };
+  showPage(0);
 }
 
 // 起動時にリワードテーブルをデフォルト表示し、データを取得

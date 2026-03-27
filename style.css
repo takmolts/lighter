@@ -162,6 +162,36 @@ button:active {
   border-left: 2px solid var(--accent-color);
 }
 
+/* ページネーションタブ */
+.page-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.page-tab {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  border-radius: 6px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.page-tab:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.page-tab--active {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  background: rgba(88, 166, 255, 0.1);
+}
+
 /* ボリューム条件達成バッジ */
 .qualify-badge {
   font-size: 0.8em;
@@ -428,5 +458,10 @@ button:active {
   .reward-table td {
     padding: 5px 8px;
     font-size: 0.8rem;
+  }
+
+  .page-tab {
+    font-size: 0.72rem;
+    padding: 4px 8px;
   }
 }
