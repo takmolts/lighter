@@ -264,6 +264,15 @@ button:active {
   color: var(--text-secondary);
 }
 
+.rules-list a {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.rules-list a:hover {
+  color: #79bbff;
+}
+
 /* Reward Table */
 .tier-tabs {
   display: flex;
