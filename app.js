@@ -187,13 +187,11 @@ function renderVolRanking(data, totalVolume, prizeCount) {
     if (index < prizeCount) tr.classList.add("rank-prize");
 
     const vol = item.tradingVolume || 0;
-    const score = item.score || 0;
 
     tr.innerHTML = `
       <td>${rankCell(index)}</td>
       <td>${traderCell(item)}</td>
       <td>$${vol.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
-      <td>${score.toLocaleString(undefined, {maximumFractionDigits: 2})}</td>
     `;
     body.appendChild(tr);
   });
