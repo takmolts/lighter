@@ -20,10 +20,18 @@ const REWARD_TIERS = [
   },
 ];
 
+const VOLUME_QUALIFY_THRESHOLD = 10_000;
+const RANK_MEDALS = ["🥇", "🥈", "🥉"];
+
 function getActiveTierIndex(totalVolume) {
   if (totalVolume >= 50_000_000) return 0;
   if (totalVolume >= 30_000_000) return 1;
   return 2;
+}
+
+function rankCell(index) {
+  const medal = RANK_MEDALS[index];
+  return medal ? `${medal} ${index + 1}` : `${index + 1}`;
 }
 
 function renderRewardTables(totalVolume) {
@@ -106,14 +114,17 @@ async function fetchData() {
     const jsonData = await dataResponse.json();
     const participants = jsonData.participants;
 
+    const totalVolume = jsonData.meta.totalVolumeUSDT;
+    const tierIdx = totalVolume != null ? getActiveTierIndex(totalVolume) : 2;
+    const tier = REWARD_TIERS[tierIdx];
+
     // ROIランキング（ROI降順）
     const roiSorted = [...participants].sort((a, b) => b.roi - a.roi);
-    renderRoiRanking(roiSorted);
+    renderRoiRanking(roiSorted, tier.roi.length);
 
     // Volumeランキング（Volume降順）
-    const totalVolume = jsonData.meta.totalVolumeUSDT;
     const volSorted = [...participants].sort((a, b) => b.tradingVolume - a.tradingVolume);
-    renderVolRanking(volSorted, totalVolume);
+    renderVolRanking(volSorted, totalVolume, tier.vol.length);
 
     // リワードテーブル
     renderRewardTables(totalVolume);
@@ -128,13 +139,15 @@ async function fetchData() {
 function traderCell(item) {
   const displayAddr = `${item.address.substring(0, 6)}...${item.address.substring(item.address.length - 4)}`;
   const nameLabel = item.displayName || displayAddr;
+  const qualified = (item.tradingVolume || 0) >= VOLUME_QUALIFY_THRESHOLD;
+  const badge = qualified ? ' <span class="qualify-badge" title="Vol. $10,000+ 達成">✅</span>' : "";
   const xLink = item.xAccount
     ? `<a href="https://x.com/${item.xAccount.replace('@', '')}" target="_blank" rel="noopener" style="color: var(--text-secondary); font-size: 0.85em; text-decoration: none;">${item.xAccount}</a>`
     : "";
-  return `${nameLabel}${xLink ? `<br>${xLink}` : ""}`;
+  return `${nameLabel}${badge}${xLink ? `<br>${xLink}` : ""}`;
 }
 
-function renderRoiRanking(data) {
+function renderRoiRanking(data, prizeCount) {
   const body = document.getElementById("roi-ranking-body");
   body.innerHTML = "";
 
@@ -142,13 +155,14 @@ function renderRoiRanking(data) {
     const tr = document.createElement("tr");
     tr.className = "animate-fade-in";
     tr.style.animationDelay = `${index * 0.05}s`;
+    if (index < prizeCount) tr.classList.add("rank-prize");
 
     const roiClass = item.roi >= 0 ? "roi-positive" : "roi-negative";
     const pnl = item.pnl || 0;
     const pnlClass = pnl >= 0 ? "roi-positive" : "roi-negative";
 
     tr.innerHTML = `
-      <td>${index + 1}</td>
+      <td>${rankCell(index)}</td>
       <td>${traderCell(item)}</td>
       <td class="${roiClass}">${(item.roi || 0).toFixed(2)}%</td>
       <td class="${pnlClass}">$${pnl.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
@@ -157,7 +171,7 @@ function renderRoiRanking(data) {
   });
 }
 
-function renderVolRanking(data, totalVolume) {
+function renderVolRanking(data, totalVolume, prizeCount) {
   const totalEl = document.getElementById("vol-total");
   if (totalEl && totalVolume != null) {
     totalEl.textContent = `$${totalVolume.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
@@ -170,12 +184,13 @@ function renderVolRanking(data, totalVolume) {
     const tr = document.createElement("tr");
     tr.className = "animate-fade-in";
     tr.style.animationDelay = `${index * 0.05}s`;
+    if (index < prizeCount) tr.classList.add("rank-prize");
 
     const vol = item.tradingVolume || 0;
     const score = item.score || 0;
 
     tr.innerHTML = `
-      <td>${index + 1}</td>
+      <td>${rankCell(index)}</td>
       <td>${traderCell(item)}</td>
       <td>$${vol.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
       <td>${score.toLocaleString(undefined, {maximumFractionDigits: 2})}</td>

@@ -149,6 +149,25 @@ button:active {
 .roi-positive { color: var(--success); }
 .roi-negative { color: #f85149; }
 
+/* 入賞圏ハイライト */
+.leaderboard-table tr.rank-prize {
+  background: rgba(88, 166, 255, 0.08);
+}
+
+.leaderboard-table tr.rank-prize:hover {
+  background: rgba(88, 166, 255, 0.14);
+}
+
+.leaderboard-table tr.rank-prize td:first-child {
+  border-left: 2px solid var(--accent-color);
+}
+
+/* ボリューム条件達成バッジ */
+.qualify-badge {
+  font-size: 0.8em;
+  vertical-align: middle;
+}
+
 .section-title {
   font-size: 1.2rem;
   font-weight: 700;
