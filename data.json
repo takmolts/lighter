@@ -1,14 +1,14 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-03-31T20:13:05.410422Z",
+    "fetchedAtUTC": "2026-03-31T20:17:04.551353Z",
     "totalCount": 1,
     "totalVolumeUSDT": 0
   },
   "participants": [
     {
-      "address": "0x59dF4451216a08912ef7d7f5B882CB4e6644927e",
-      "displayName": "ExampleTrader",
-      "xAccount": "@example_trader",
+      "address": "0x5550d9F1d786f5E0F32470D8F333181930e4B55C",
+      "displayName": "taka.eth",
+      "xAccount": "@bb_jpdao",
       "tradingVolume": 0,
       "roi": 0.0,
       "pnl": 0.0,
