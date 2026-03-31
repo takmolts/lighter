@@ -1,18 +1,29 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-03-21T19:21:42.808052Z",
-    "totalCount": 1,
-    "totalVolumeUSDT": 9.998263
+    "fetchedAtUTC": "2026-03-31T19:36:57.615386Z",
+    "totalCount": 2,
+    "totalVolumeUSDT": 0
   },
   "participants": [
     {
       "address": "0x59dF4451216a08912ef7d7f5B882CB4e6644927e",
       "displayName": "ExampleTrader",
-      "tradingVolume": 9.998263,
+      "xAccount": "@example_trader",
+      "tradingVolume": 0,
       "roi": 0.0,
-      "pnl": 0,
+      "pnl": 0.0,
       "score": 0,
       "rank": 1
+    },
+    {
+      "address": "0x5550d9F1d786f5E0F32470D8F333181930e4B55C",
+      "displayName": "taka.eth",
+      "xAccount": "@bb_jpdao",
+      "tradingVolume": 0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 2
     }
   ]
 }
