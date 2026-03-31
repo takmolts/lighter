@@ -106,7 +106,7 @@ async function fetchData() {
   statusEl.innerText = "データを取得しています...";
 
   try {
-    const dataResponse = await fetch("data.json");
+    const dataResponse = await fetch(`data.json?t=${Date.now()}`);
 
     if (!dataResponse.ok) {
       statusEl.innerText = "データが見つかりません。GitHub Actions でデータが生成されるまでお待ちください。";
