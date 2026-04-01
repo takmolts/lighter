@@ -1,12 +1,12 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-03-31T20:18:50.152558Z",
-    "totalCount": 1,
+    "fetchedAtUTC": "2026-04-01T01:10:52.625040Z",
+    "totalCount": 2,
     "totalVolumeUSDT": 0
   },
   "participants": [
     {
-      "address": "0x5550d9F1d786f5E0F32470D8F333181930e4B55C",
+      "address": "0x5550...B55C",
       "displayName": "taka.eth",
       "xAccount": "@bb_jpdao",
       "tradingVolume": 0,
@@ -14,6 +14,16 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 1
+    },
+    {
+      "address": "0x8B68...E59f",
+      "displayName": "Tsun",
+      "xAccount": "@tsun_crypto",
+      "tradingVolume": 0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 2
     }
   ]
 }
