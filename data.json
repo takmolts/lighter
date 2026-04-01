@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-01T14:58:16.064180Z",
-    "totalCount": 2,
+    "fetchedAtUTC": "2026-04-01T15:08:24.108011Z",
+    "totalCount": 3,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -24,6 +24,16 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 2
+    },
+    {
+      "address": "0x3Af6...bb91",
+      "displayName": "RiskLover000",
+      "xAccount": "@RiskLover000",
+      "tradingVolume": 0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 3
     }
   ]
 }
