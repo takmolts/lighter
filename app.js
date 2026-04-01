@@ -139,8 +139,7 @@ async function fetchData() {
 }
 
 function traderCell(item) {
-  const displayAddr = `${item.address.substring(0, 6)}...${item.address.substring(item.address.length - 4)}`;
-  const nameLabel = item.displayName || displayAddr;
+  const nameLabel = item.displayName || item.address;
   const qualified = (item.tradingVolume || 0) >= VOLUME_QUALIFY_THRESHOLD;
   const badge = qualified ? ' <span class="qualify-badge" title="Vol. $10,000+ 達成">✅</span>' : "";
   const xLink = item.xAccount
