@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-01T16:19:21.793989Z",
-    "totalCount": 3,
+    "fetchedAtUTC": "2026-04-01T16:29:29.667083Z",
+    "totalCount": 4,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -34,6 +34,16 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 3
+    },
+    {
+      "address": "0x2fb3...9ba1",
+      "displayName": "しききた",
+      "xAccount": "@B6dfBc5LZz56563",
+      "tradingVolume": 0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 4
     }
   ]
 }
