@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-01T15:28:40.390181Z",
+    "fetchedAtUTC": "2026-04-01T15:38:49.383121Z",
     "totalCount": 3,
     "totalVolumeUSDT": 0
   },
@@ -30,7 +30,7 @@
       "displayName": "RiskLover000",
       "xAccount": "@RiskLover000",
       "tradingVolume": 0,
-      "roi": 0,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 3
