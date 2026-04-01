@@ -50,7 +50,10 @@
       <p style="color: var(--text-secondary); font-size: 0.75rem; margin-top: 12px;">※同額の $JPYC に変更可能です。</p>
     </div>
 
-    <div id="status" class="status animate-fade-in" style="animation-delay: 0.18s;">データを読み込んでいます...</div>
+    <div class="status-bar animate-fade-in" style="animation-delay: 0.18s;">
+      <div id="status" class="status">データを読み込んでいます...</div>
+      <button class="refresh-btn" onclick="fetchData()">🔄 更新</button>
+    </div>
 
     <!-- ROI ランキング -->
     <div class="dashboard-card animate-fade-in" style="animation-delay: 0.2s;">
