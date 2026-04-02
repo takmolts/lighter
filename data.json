@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-02T13:36:54.186891Z",
-    "totalCount": 8,
+    "fetchedAtUTC": "2026-04-02T13:47:02.203008Z",
+    "totalCount": 9,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -84,6 +84,16 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 8
+    },
+    {
+      "address": "0xDFf0...aD1D",
+      "displayName": "ブルーツ・リー",
+      "xAccount": "@Key_stick_salt1",
+      "tradingVolume": 0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 9
     }
   ]
 }
