@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-02T11:25:03.266758Z",
-    "totalCount": 5,
+    "fetchedAtUTC": "2026-04-02T11:35:11.355207Z",
+    "totalCount": 6,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -54,6 +54,16 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 5
+    },
+    {
+      "address": "0xAb5a...2EEB",
+      "displayName": "lawd0th1",
+      "xAccount": "@lawd0th1",
+      "tradingVolume": 0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 6
     }
   ]
 }
