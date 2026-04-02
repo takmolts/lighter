@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-02T12:46:09.030046Z",
-    "totalCount": 6,
+    "fetchedAtUTC": "2026-04-02T12:56:17.836782Z",
+    "totalCount": 7,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -64,6 +64,16 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 6
+    },
+    {
+      "address": "0xbFe0...f673",
+      "displayName": "saasha",
+      "xAccount": "@sasha_rblue",
+      "tradingVolume": 0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 7
     }
   ]
 }
