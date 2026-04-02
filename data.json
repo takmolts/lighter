@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-02T13:26:45.566694Z",
-    "totalCount": 7,
+    "fetchedAtUTC": "2026-04-02T13:36:54.186891Z",
+    "totalCount": 8,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -74,6 +74,16 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 7
+    },
+    {
+      "address": "0xa267...664F",
+      "displayName": "taju",
+      "xAccount": "@taju_crypto",
+      "tradingVolume": 0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 8
     }
   ]
 }
