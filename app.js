@@ -190,11 +190,13 @@ function renderRoiPage(body, data, page, prizeCount) {
     const pnlClass = pnl >= 0 ? "roi-positive" : "roi-negative";
 
     const baseline = item.baseline || 0;
+    const underFunded = baseline < 200;
+    const warnClass = underFunded ? " baseline-warn" : "";
 
     tr.innerHTML = `
       <td>${rankCell(index)}</td>
-      <td>${traderCell(item)}</td>
-      <td>$${baseline.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
+      <td class="${warnClass}">${traderCell(item)}</td>
+      <td class="${warnClass}">$${baseline.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
       <td class="${roiClass}">${(item.roi || 0).toFixed(2)}%</td>
       <td class="${pnlClass}">$${pnl.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
     `;
@@ -226,10 +228,12 @@ function renderVolPage(body, data, page, prizeCount) {
     if (index < prizeCount) tr.classList.add("rank-prize");
 
     const vol = item.tradingVolume || 0;
+    const baseline = item.baseline || 0;
+    const warnClass = baseline < 200 ? " baseline-warn" : "";
 
     tr.innerHTML = `
       <td>${rankCell(index)}</td>
-      <td>${traderCell(item)}</td>
+      <td class="${warnClass}">${traderCell(item)}</td>
       <td>$${vol.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
     `;
     body.appendChild(tr);

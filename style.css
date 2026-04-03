@@ -148,6 +148,7 @@ button:active {
 
 .roi-positive { color: var(--success); }
 .roi-negative { color: #f85149; }
+.baseline-warn { color: #f85149; }
 
 /* 入賞圏ハイライト */
 .leaderboard-table tr.rank-prize {
