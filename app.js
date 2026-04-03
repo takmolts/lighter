@@ -189,9 +189,12 @@ function renderRoiPage(body, data, page, prizeCount) {
     const pnl = item.pnl || 0;
     const pnlClass = pnl >= 0 ? "roi-positive" : "roi-negative";
 
+    const baseline = item.baseline || 0;
+
     tr.innerHTML = `
       <td>${rankCell(index)}</td>
       <td>${traderCell(item)}</td>
+      <td>$${baseline.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
       <td class="${roiClass}">${(item.roi || 0).toFixed(2)}%</td>
       <td class="${pnlClass}">$${pnl.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</td>
     `;
