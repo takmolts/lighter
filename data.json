@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-03T14:06:32.691586Z",
-    "totalCount": 9,
+    "fetchedAtUTC": "2026-04-03T14:16:40.929989Z",
+    "totalCount": 10,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -103,6 +103,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 9
+    },
+    {
+      "address": "0x5f3C...108A",
+      "displayName": "nisssiiiin",
+      "xAccount": "@mottuAAAA",
+      "tradingVolume": 0,
+      "baseline": 0.0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 10
     }
   ]
 }
