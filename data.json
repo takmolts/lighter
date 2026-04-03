@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-03T03:48:41.395483Z",
+    "fetchedAtUTC": "2026-04-03T03:58:48.630923Z",
     "totalCount": 9,
     "totalVolumeUSDT": 0
   },
@@ -8,7 +8,7 @@
     {
       "address": "0x5550...B55C",
       "displayName": "taka.eth",
-      "xAccount": "@bb_jpdao",
+      "xAccount": "@taka_eth",
       "tradingVolume": 0,
       "roi": 0.0,
       "pnl": 0.0,
