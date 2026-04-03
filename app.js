@@ -22,7 +22,7 @@ const REWARD_TIERS = [
 
 const VOLUME_QUALIFY_THRESHOLD = 10_000;
 const RANK_MEDALS = ["🥇", "🥈", "🥉"];
-const INITIAL_DISPLAY_COUNT = 20;
+const INITIAL_DISPLAY_COUNT = 10;
 
 function getActiveTierIndex(totalVolume) {
   if (totalVolume >= 50_000_000) return 0;
