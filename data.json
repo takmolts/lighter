@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-04T16:08:13.912242Z",
-    "totalCount": 10,
+    "fetchedAtUTC": "2026-04-04T16:18:22.516685Z",
+    "totalCount": 11,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -114,6 +114,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 10
+    },
+    {
+      "address": "0x9be1...df77",
+      "displayName": "gken",
+      "xAccount": "@Goku56565",
+      "tradingVolume": 0,
+      "baseline": 0.0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 11
     }
   ]
 }
