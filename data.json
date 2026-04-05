@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-05T13:05:55.922274Z",
+    "fetchedAtUTC": "2026-04-05T13:16:03.843611Z",
     "totalCount": 14,
     "totalVolumeUSDT": 0
   },
@@ -10,8 +10,8 @@
       "displayName": "taka.eth",
       "xAccount": "@taka_eth",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 211.485575,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 1
@@ -21,8 +21,8 @@
       "displayName": "Tsun",
       "xAccount": "@tsun_crypto",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 200.99,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 2
@@ -32,8 +32,8 @@
       "displayName": "RiskLover000",
       "xAccount": "@RiskLover000",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 201.99,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 3
@@ -43,8 +43,8 @@
       "displayName": "しききた",
       "xAccount": "@B6dfBc5LZz56563",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 204.1,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 4
@@ -54,8 +54,8 @@
       "displayName": "gamblergrave",
       "xAccount": "@gamblergrave",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 203.0,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 5
@@ -65,8 +65,8 @@
       "displayName": "lawd0th1",
       "xAccount": "@lawd0th1",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 203.43,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 6
@@ -87,8 +87,8 @@
       "displayName": "taju",
       "xAccount": "@taju_crypto",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 204.942173,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 8
@@ -98,8 +98,8 @@
       "displayName": "ブルーツ・リー",
       "xAccount": "@Key_stick_salt1",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 214.323909,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 9
@@ -131,8 +131,8 @@
       "displayName": "agnello",
       "xAccount": "@agnello_axie",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 203.231749,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 12
@@ -142,8 +142,8 @@
       "displayName": "もっちー",
       "xAccount": "@waramo_fire",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 202.0,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 13
@@ -153,8 +153,8 @@
       "displayName": "torokerukun",
       "xAccount": "@RLNs1023",
       "tradingVolume": 0,
-      "baseline": 0.0,
-      "roi": 0,
+      "baseline": 10.353328,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 14
