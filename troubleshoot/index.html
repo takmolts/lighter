@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>リファラル登録ガイド - Lighter Cup</title>
+  <link rel="stylesheet" href="../style.css?v=4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    .back-link {
+      display: inline-block;
+      color: var(--accent-color);
+      text-decoration: none;
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+      transition: opacity 0.2s;
+    }
+    .back-link:hover { opacity: 0.8; }
+
+    .tab-switch {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    .tab-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      color: var(--text-secondary);
+      border-radius: 8px;
+      padding: 10px 24px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .tab-btn.active {
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+      background: rgba(88, 166, 255, 0.15);
+    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      margin-bottom: 28px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--glass-border);
+    }
+    .step:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .step-number {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      background: rgba(88, 166, 255, 0.15);
+      border: 1px solid var(--accent-color);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: var(--accent-color);
+      font-size: 0.95rem;
+    }
+    .step-body { flex: 1; min-width: 0; }
+    .step-body h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+    .step-body p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      line-height: 1.7;
+      margin-bottom: 12px;
+    }
+    .step-body p:last-child { margin-bottom: 0; }
+
+    .step-img {
+      width: 100%;
+      max-width: 480px;
+      border-radius: 8px;
+      border: 1px solid var(--glass-border);
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .step-img:hover { opacity: 0.85; }
+
+    .ref-link-box {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin: 12px 0;
+      word-break: break-all;
+      font-size: 0.85rem;
+    }
+    .ref-link-box a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+    .ref-link-box a:hover { text-decoration: underline; }
+
+    .note-box {
+      background: rgba(248, 81, 73, 0.08);
+      border: 1px solid rgba(248, 81, 73, 0.3);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: #f0883e;
+      line-height: 1.7;
+    }
+
+    .tip-box {
+      background: rgba(63, 185, 80, 0.08);
+      border: 1px solid rgba(63, 185, 80, 0.3);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 12px;
+      font-size: 0.85rem;
+      color: #3fb950;
+      line-height: 1.7;
+    }
+
+    .app-badges {
+      display: flex;
+      gap: 12px;
+      margin: 12px 0;
+      flex-wrap: wrap;
+    }
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      border-radius: 8px;
+      padding: 8px 16px;
+      color: var(--text-primary);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .app-badge:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: var(--accent-color);
+    }
+
+    @media (max-width: 768px) {
+      .step {
+        flex-direction: column;
+        gap: 12px;
+      }
+      .step-number {
+        width: 32px;
+        height: 32px;
+        font-size: 0.85rem;
+      }
+      .tab-btn {
+        flex: 1;
+        text-align: center;
+        padding: 10px 12px;
+        font-size: 0.85rem;
+      }
+      .step-img {
+        max-width: 320px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../" class="back-link animate-fade-in">&larr; ランキングページに戻る</a>
+
+    <header class="animate-fade-in">
+      <h1>リファラル登録ガイド</h1>
+      <p class="subtitle">既にアカウントをお持ちの方向けの後付け登録手順</p>
+    </header>
+
+    <!-- 注意事項 -->
+    <div class="dashboard-card animate-fade-in" style="animation-delay: 0.1s;">
+      <h2 class="section-title">はじめに</h2>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7;">
+        大会参加にはリファラルコード <strong style="color: var(--accent-color);">BBDAO</strong> の登録が必要です。<br>
+        既にLighterアカウントをお持ちの場合でも、以下の手順でリファラルを後から登録できます。
+      </p>
+      <div class="note-box">
+        リファラル登録は取引を行う前に完了してください。登録前の取引はランキング集計の対象外となる場合があります。
+      </div>
+    </div>
+
+    <!-- PC / スマホ切り替え -->
+    <div class="animate-fade-in" style="animation-delay: 0.15s;">
+      <div class="tab-switch">
+        <button class="tab-btn active" onclick="switchTab('pc')">PC</button>
+        <button class="tab-btn" onclick="switchTab('sp')">スマホアプリ</button>
+      </div>
+    </div>
+
+    <!-- PC手順 -->
+    <div id="tab-pc" class="tab-content active">
+      <div class="dashboard-card animate-fade-in" style="animation-delay: 0.2s;">
+        <h2 class="section-title">PCからの登録手順</h2>
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-body">
+            <h3>リファラルリンクにアクセス</h3>
+            <p>以下のリンクをブラウザで開きます。</p>
+            <div class="ref-link-box"><a href="https://app.lighter.xyz/?referral=BBDAO" target="_blank" rel="noopener">https://app.lighter.xyz/?referral=BBDAO</a></div>
+            <p>右上の「Connect Wallet」を開いて、EVMウォレットからの認証を通常通り実施してください。</p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-body">
+            <h3>Authenticateを実行</h3>
+            <p>ウォレット接続後、以下のように「Authenticate」が表示されます。<br>
+            「Authenticate」を選択してください。</p>
+            <img src="img/pc_001.png" alt="Authenticate画面" class="step-img">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-body">
+            <h3>リファラルコードを登録</h3>
+            <p>「Use Ref Code」の画面が表示されます。<br>
+            DiscordやXのアカウント入力は任意です。そのまま「Submit」を押せばリファラル登録完了です。</p>
+            <img src="img/pc_002.png" alt="Use Ref Code画面" class="step-img">
+          </div>
+        </div>
+
+        <div class="tip-box">
+          登録完了後はモバイルアプリに切り替えて取引を行ってください。大会はモバイルアプリでの取引のみが対象です。
+        </div>
+      </div>
+    </div>
+
+    <!-- スマホ手順 -->
+    <div id="tab-sp" class="tab-content">
+      <div class="dashboard-card animate-fade-in" style="animation-delay: 0.2s;">
+        <h2 class="section-title">スマホアプリからの登録手順</h2>
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-body">
+            <h3>Lighterアプリをインストール</h3>
+            <p>まだインストールしていない場合は、以下からアプリをインストールしてください。</p>
+            <div class="app-badges">
+              <a href="https://play.google.com/store/apps/details?id=com.zklighter.app" target="_blank" rel="noopener" class="app-badge">Android (Google Play)</a>
+              <a href="https://apps.apple.com/us/app/lighter-mobile/id6752246796" target="_blank" rel="noopener" class="app-badge">iOS (App Store)</a>
+            </div>
+            <img src="img/app_001.png" alt="アプリインストール画面" class="step-img">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-body">
+            <h3>リファラルリンクにアクセス</h3>
+            <p>スマホのブラウザで以下のリンクを開くと、自動的にLighterアプリが起動します。</p>
+            <div class="ref-link-box"><a href="https://app.lighter.xyz/?referral=BBDAO" target="_blank" rel="noopener">https://app.lighter.xyz/?referral=BBDAO</a></div>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-body">
+            <h3>Authenticateを実行</h3>
+            <p>PCと同様に「Authenticate」が表示されます。<br>
+            認証済みのEVMウォレットアプリを開いて認証してください。</p>
+            <img src="img/app_002.png" alt="スマホAuthenticate画面" class="step-img">
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-body">
+            <h3>リファラルコードを登録</h3>
+            <p>認証が完了すると「USE A REFERRAL CODE」が表示されます。<br>
+            リファラルコードが入力されていることを確認して登録を完了してください。</p>
+            <img src="img/app_003.png" alt="USE A REFERRAL CODE画面" class="step-img">
+          </div>
+        </div>
+
+        <div class="tip-box">
+          登録完了後はそのままアプリ上で取引を開始できます。大会はモバイルアプリでの取引のみが対象です。
+        </div>
+      </div>
+    </div>
+
+    <footer class="animate-fade-in" style="text-align: center; color: var(--text-secondary); font-size: 0.8rem; margin-top: 40px; animation-delay: 0.5s;">
+      Wagyu Bull Run Lighter Cup
+    </footer>
+  </div>
+
+  <!-- 画像拡大モーダル -->
+  <div id="img-modal" class="modal-overlay" onclick="this.classList.remove('active')">
+    <img id="img-modal-src" src="" alt="拡大画像" class="modal-image">
+  </div>
+
+  <script>
+    function switchTab(tab) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+      document.getElementById('tab-' + tab).classList.add('active');
+      event.currentTarget.classList.add('active');
+    }
+
+    document.querySelectorAll('.step-img').forEach(img => {
+      img.addEventListener('click', () => {
+        document.getElementById('img-modal-src').src = img.src;
+        document.getElementById('img-modal').classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
