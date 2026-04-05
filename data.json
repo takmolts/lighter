@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-05T00:55:11.788342Z",
+    "fetchedAtUTC": "2026-04-05T01:05:19.886605Z",
     "totalCount": 12,
     "totalVolumeUSDT": 0
   },
@@ -131,7 +131,7 @@
       "displayName": "agnello",
       "xAccount": "@agnello_axie",
       "tradingVolume": 0,
-      "baseline": 201.00004,
+      "baseline": 201.015762,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
