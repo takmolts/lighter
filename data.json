@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-05T19:41:16.637975Z",
+    "fetchedAtUTC": "2026-04-05T19:51:24.995470Z",
     "totalCount": 18,
     "totalVolumeUSDT": 0
   },
@@ -197,7 +197,7 @@
       "displayName": "mol",
       "xAccount": "@bb_mol_crypto",
       "tradingVolume": 0,
-      "baseline": 9.999087,
+      "baseline": 204.999087,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
