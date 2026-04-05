@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-05T18:40:27.433993Z",
-    "totalCount": 16,
+    "fetchedAtUTC": "2026-04-05T18:50:35.319513Z",
+    "totalCount": 18,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -180,6 +180,28 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 16
+    },
+    {
+      "address": "0xfFA9...bC48",
+      "displayName": "クリデス",
+      "xAccount": "@crypto_death",
+      "tradingVolume": 0,
+      "baseline": 0.0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 17
+    },
+    {
+      "address": "0x59dF...927e",
+      "displayName": "mol",
+      "xAccount": "@bb_mol_crypto",
+      "tradingVolume": 0,
+      "baseline": 9.999087,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 18
     }
   ]
 }
