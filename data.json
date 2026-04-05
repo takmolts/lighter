@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-05T13:26:11.675566Z",
-    "totalCount": 15,
+    "fetchedAtUTC": "2026-04-05T13:36:21.994204Z",
+    "totalCount": 16,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -169,6 +169,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 15
+    },
+    {
+      "address": "0xe949...aff5",
+      "displayName": "nicknick",
+      "xAccount": "@inv32561",
+      "tradingVolume": 0,
+      "baseline": 201.0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 16
     }
   ]
 }
