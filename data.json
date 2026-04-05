@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-05T12:05:06.497484Z",
-    "totalCount": 13,
+    "fetchedAtUTC": "2026-04-05T12:15:14.508220Z",
+    "totalCount": 14,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -147,6 +147,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 13
+    },
+    {
+      "address": "0x6D3F...4041",
+      "displayName": "torokerukun",
+      "xAccount": "@RLNs1023",
+      "tradingVolume": 0,
+      "baseline": 0.0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 14
     }
   ]
 }
