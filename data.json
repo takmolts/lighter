@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T15:14:44.703764Z",
+    "fetchedAtUTC": "2026-04-06T15:25:34.870163Z",
     "totalCount": 21,
-    "totalVolumeUSDT": 15453.596298000002
+    "totalVolumeUSDT": 24113.360777999995
   },
   "participants": [
     {
@@ -20,11 +20,11 @@
       "address": "0x5550...B55C",
       "displayName": "taka.eth",
       "xAccount": "@taka_eth",
-      "tradingVolume": 15115.479050000002,
+      "tradingVolume": 23775.243529999996,
       "baseline": 211.485575,
-      "roi": 1.1163645558331827,
-      "pnl": 2.3609500000000025,
-      "score": 290.2670555999427,
+      "roi": 1.1541921949050125,
+      "pnl": 2.4409499999999866,
+      "score": 376.3755217417424,
       "rank": 2
     },
     {
