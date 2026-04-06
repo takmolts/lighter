@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T18:01:29.851552Z",
+    "fetchedAtUTC": "2026-04-06T18:12:19.086391Z",
     "totalCount": 23,
-    "totalVolumeUSDT": 57978.384630000015
+    "totalVolumeUSDT": 58052.34093000001
   },
   "participants": [
     {
@@ -251,10 +251,10 @@
       "address": "0x9d87...bb70",
       "displayName": "sammy",
       "xAccount": "@sammysan333x",
-      "tradingVolume": 101.60692900000001,
+      "tradingVolume": 175.563229,
       "baseline": 204.36,
-      "roi": -0.021906928948914793,
-      "pnl": -0.04476900000000228,
+      "roi": -0.02763211978861871,
+      "pnl": -0.0564690000000212,
       "score": 0,
       "rank": 23
     }
