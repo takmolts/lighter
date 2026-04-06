@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T23:47:26.600547Z",
-    "totalCount": 23,
+    "fetchedAtUTC": "2026-04-06T23:58:16.494457Z",
+    "totalCount": 24,
     "totalVolumeUSDT": 63355.58907600001
   },
   "participants": [
@@ -257,6 +257,17 @@
       "pnl": -204.356469,
       "score": 0,
       "rank": 23
+    },
+    {
+      "address": "0xcF25...02BD",
+      "displayName": "D3",
+      "xAccount": "@dEu333",
+      "tradingVolume": 0,
+      "baseline": 0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 24
     }
   ]
 }
