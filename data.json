@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T05:29:16.418049Z",
-    "totalCount": 18,
+    "fetchedAtUTC": "2026-04-06T05:40:04.618369Z",
+    "totalCount": 19,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -202,6 +202,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 18
+    },
+    {
+      "address": "0xcd38...6CeB",
+      "displayName": "Rinrin",
+      "xAccount": "@Edvm9r4sGY5926",
+      "tradingVolume": 0,
+      "baseline": 450.973259,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 19
     }
   ]
 }
