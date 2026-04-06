@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T15:47:14.113148Z",
-    "totalCount": 21,
-    "totalVolumeUSDT": 26180.116338
+    "fetchedAtUTC": "2026-04-06T15:58:04.220372Z",
+    "totalCount": 22,
+    "totalVolumeUSDT": 28336.587035
   },
   "participants": [
     {
@@ -31,7 +31,7 @@
       "address": "0x8B68...E59f",
       "displayName": "Tsun",
       "xAccount": "@tsun_crypto",
-      "tradingVolume": 0,
+      "tradingVolume": 2156.4706969999997,
       "baseline": 200.99,
       "roi": 0.0,
       "pnl": 0.0,
@@ -235,6 +235,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 21
+    },
+    {
+      "address": "0xcFCE...1867",
+      "displayName": "yokoyoko",
+      "xAccount": "@BP82416998",
+      "tradingVolume": 0,
+      "baseline": 300.0006,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 22
     }
   ]
 }
