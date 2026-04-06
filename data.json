@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T10:44:05.887549Z",
+    "fetchedAtUTC": "2026-04-06T10:54:55.611700Z",
     "totalCount": 20,
     "totalVolumeUSDT": 0
   },
@@ -219,7 +219,7 @@
       "displayName": "Nira",
       "xAccount": "@NiraAxPxC",
       "tradingVolume": 0,
-      "baseline": 300.0,
+      "baseline": 297.6009,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
