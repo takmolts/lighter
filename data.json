@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T09:17:32.115206Z",
+    "fetchedAtUTC": "2026-04-06T09:28:20.966626Z",
     "totalCount": 19,
     "totalVolumeUSDT": 0
   },
@@ -98,7 +98,7 @@
       "displayName": "ブルーツ・リー",
       "xAccount": "@Key_stick_salt1",
       "tradingVolume": 0,
-      "baseline": 214.323909,
+      "baseline": 180.392389,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
