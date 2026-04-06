@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T12:54:01.638972Z",
-    "totalCount": 20,
+    "fetchedAtUTC": "2026-04-06T13:04:51.771881Z",
+    "totalCount": 21,
     "totalVolumeUSDT": 0
   },
   "participants": [
@@ -131,7 +131,7 @@
       "displayName": "agnello",
       "xAccount": "@agnello_axie",
       "tradingVolume": 0,
-      "baseline": 139.628723,
+      "baseline": 138.616402,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
@@ -208,7 +208,7 @@
       "displayName": "Rinrin",
       "xAccount": "@Edvm9r4sGY5926",
       "tradingVolume": 0,
-      "baseline": 445.914118,
+      "baseline": 445.909404,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
@@ -219,11 +219,22 @@
       "displayName": "Nira",
       "xAccount": "@NiraAxPxC",
       "tradingVolume": 0,
-      "baseline": 297.623556,
+      "baseline": 297.629496,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 20
+    },
+    {
+      "address": "0x8A59...3399",
+      "displayName": "saba",
+      "xAccount": "@SabaScrypto",
+      "tradingVolume": 0,
+      "baseline": 0.0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 21
     }
   ]
 }
