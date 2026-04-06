@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T17:13:53.937428Z",
+    "fetchedAtUTC": "2026-04-06T17:28:59.930947Z",
     "totalCount": 22,
-    "totalVolumeUSDT": 56487.52738700002
+    "totalVolumeUSDT": 57287.396387000015
   },
   "participants": [
     {
@@ -17,26 +17,15 @@
       "rank": 1
     },
     {
-      "address": "0xDFf0...aD1D",
-      "displayName": "ブルーツ・リー",
-      "xAccount": "@Key_stick_salt1",
-      "tradingVolume": 338.117248,
-      "baseline": 180.392389,
-      "roi": 17.990206892819618,
-      "pnl": 32.45296399999998,
-      "score": 596.7439583763098,
-      "rank": 2
-    },
-    {
       "address": "0xa267...664F",
       "displayName": "taju",
       "xAccount": "@taju_crypto",
-      "tradingVolume": 279.85813199999996,
+      "tradingVolume": 1079.727132,
       "baseline": 204.942173,
       "roi": 0.04579438122772236,
       "pnl": 0.09385199999999827,
-      "score": 1.5700464361603017,
-      "rank": 3
+      "score": 3.0839017917200247,
+      "rank": 2
     },
     {
       "address": "0x8B68...E59f",
@@ -47,7 +36,7 @@
       "roi": -1.0754520125379385,
       "pnl": -2.161551000000003,
       "score": 0,
-      "rank": 4
+      "rank": 3
     },
     {
       "address": "0x3Af6...bb91",
@@ -58,7 +47,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 5
+      "rank": 4
     },
     {
       "address": "0x2fb3...9ba1",
@@ -69,7 +58,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 6
+      "rank": 5
     },
     {
       "address": "0x920D...4498",
@@ -80,7 +69,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 7
+      "rank": 6
     },
     {
       "address": "0xAb5a...2EEB",
@@ -91,7 +80,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 8
+      "rank": 7
     },
     {
       "address": "0xbFe0...f673",
@@ -101,6 +90,17 @@
       "baseline": 0.0,
       "roi": 0,
       "pnl": 0.0,
+      "score": 0,
+      "rank": 8
+    },
+    {
+      "address": "0xDFf0...aD1D",
+      "displayName": "ブルーツ・リー",
+      "xAccount": "@Key_stick_salt1",
+      "tradingVolume": 338.117248,
+      "baseline": 214.323909,
+      "roi": -0.6898698362206512,
+      "pnl": -1.4785559999999975,
       "score": 0,
       "rank": 9
     },
