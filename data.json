@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-06T08:55:54.375947Z",
+    "fetchedAtUTC": "2026-04-06T09:06:43.606484Z",
     "totalCount": 19,
     "totalVolumeUSDT": 0
   },
@@ -131,7 +131,7 @@
       "displayName": "agnello",
       "xAccount": "@agnello_axie",
       "tradingVolume": 0,
-      "baseline": 141.075841,
+      "baseline": 140.497607,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
@@ -208,7 +208,7 @@
       "displayName": "Rinrin",
       "xAccount": "@Edvm9r4sGY5926",
       "tradingVolume": 0,
-      "baseline": 449.84677,
+      "baseline": 449.846233,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
