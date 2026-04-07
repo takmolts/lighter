@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T04:03:15.501346Z",
+    "fetchedAtUTC": "2026-04-07T04:14:03.959449Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 65826.75865100001
+    "totalVolumeUSDT": 67735.67001100001
   },
   "participants": [
     {
@@ -163,10 +163,10 @@
       "address": "0x5b63...7287",
       "displayName": "agnello",
       "xAccount": "@agnello_axie",
-      "tradingVolume": 0,
+      "tradingVolume": 1908.9113599999998,
       "baseline": 201.0,
-      "roi": -38.577540298507465,
-      "pnl": -77.540856,
+      "roi": -55.77931890547264,
+      "pnl": -112.116431,
       "score": 0,
       "rank": 15
     },
@@ -231,8 +231,8 @@
       "xAccount": "@SabaScrypto",
       "tradingVolume": 0,
       "baseline": 9.0,
-      "roi": 100.0,
-      "pnl": 9.0,
+      "roi": 2311.3555555555554,
+      "pnl": 208.022,
       "score": 0,
       "rank": 21
     },
