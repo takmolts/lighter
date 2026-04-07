@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T08:27:48.835196Z",
+    "fetchedAtUTC": "2026-04-07T08:38:40.839987Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 144994.06423000002
+    "totalVolumeUSDT": 148724.821788
   },
   "participants": [
     {
@@ -61,6 +61,17 @@
       "rank": 5
     },
     {
+      "address": "0x370c...6620",
+      "displayName": "じょい",
+      "xAccount": "@joyjoycrypto",
+      "tradingVolume": 11115.075963999998,
+      "baseline": 203.445579,
+      "roi": 2.875884562721308,
+      "pnl": 5.850859999999983,
+      "score": 616.8448227010159,
+      "rank": 6
+    },
+    {
       "address": "0x8B68...E59f",
       "displayName": "Tsun",
       "xAccount": "@tsun_crypto",
@@ -69,18 +80,18 @@
       "roi": 3.621410517936215,
       "pnl": 7.278672999999998,
       "score": 539.2593084488543,
-      "rank": 6
+      "rank": 7
     },
     {
-      "address": "0x370c...6620",
-      "displayName": "じょい",
-      "xAccount": "@joyjoycrypto",
-      "tradingVolume": 8024.3743890000005,
-      "baseline": 203.445579,
-      "roi": 2.181569647183132,
-      "pnl": 4.4383069999999805,
-      "score": 397.5785366367,
-      "rank": 7
+      "address": "0x8A59...3399",
+      "displayName": "saba",
+      "xAccount": "@SabaScrypto",
+      "tradingVolume": 18361.701541000002,
+      "baseline": 217.022,
+      "roi": 1.1542023389333818,
+      "pnl": 2.5048730000000035,
+      "score": 339.4237079354214,
+      "rank": 8
     },
     {
       "address": "0xa267...664F",
@@ -91,17 +102,6 @@
       "roi": 1.2578845838625876,
       "pnl": 2.577935999999994,
       "score": 111.83986862195906,
-      "rank": 8
-    },
-    {
-      "address": "0x8A59...3399",
-      "displayName": "saba",
-      "xAccount": "@SabaScrypto",
-      "tradingVolume": 17721.645558000004,
-      "baseline": 217.022,
-      "roi": 0.03826893126042946,
-      "pnl": 0.08305200000000923,
-      "score": 11.056104079325385,
       "rank": 9
     },
     {
