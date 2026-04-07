@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T08:16:57.698919Z",
+    "fetchedAtUTC": "2026-04-07T08:27:48.835196Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 140440.37055700002
+    "totalVolumeUSDT": 144994.06423000002
   },
   "participants": [
     {
@@ -75,23 +75,34 @@
       "address": "0x370c...6620",
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
-      "tradingVolume": 5502.228549,
+      "tradingVolume": 8024.3743890000005,
       "baseline": 203.445579,
-      "roi": 1.610260107937761,
-      "pnl": 3.276003000000003,
-      "score": 243.0041014714497,
+      "roi": 2.181569647183132,
+      "pnl": 4.4383069999999805,
+      "score": 397.5785366367,
       "rank": 7
     },
     {
       "address": "0xa267...664F",
       "displayName": "taju",
       "xAccount": "@taju_crypto",
-      "tradingVolume": 1079.727132,
+      "tradingVolume": 1882.1274719999997,
       "baseline": 204.942173,
       "roi": 1.2578845838625876,
       "pnl": 2.577935999999994,
-      "score": 84.70891882261094,
+      "score": 111.83986862195906,
       "rank": 8
+    },
+    {
+      "address": "0x8A59...3399",
+      "displayName": "saba",
+      "xAccount": "@SabaScrypto",
+      "tradingVolume": 17721.645558000004,
+      "baseline": 217.022,
+      "roi": 0.03826893126042946,
+      "pnl": 0.08305200000000923,
+      "score": 11.056104079325385,
+      "rank": 9
     },
     {
       "address": "0x4ff1...e5f4",
@@ -102,7 +113,7 @@
       "roi": 0.02456650000000593,
       "pnl": 0.04913300000001186,
       "score": 2.1866500377684077,
-      "rank": 9
+      "rank": 10
     },
     {
       "address": "0xe949...aff5",
@@ -113,7 +124,7 @@
       "roi": 0.016216417910440987,
       "pnl": 0.032594999999986385,
       "score": 0.6848709832811032,
-      "rank": 10
+      "rank": 11
     },
     {
       "address": "0x3Af6...bb91",
@@ -124,7 +135,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "address": "0x2fb3...9ba1",
@@ -135,7 +146,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "address": "0x920D...4498",
@@ -146,7 +157,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 13
+      "rank": 14
     },
     {
       "address": "0xAb5a...2EEB",
@@ -157,7 +168,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 14
+      "rank": 15
     },
     {
       "address": "0xbFe0...f673",
@@ -168,7 +179,7 @@
       "roi": 0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 15
+      "rank": 16
     },
     {
       "address": "0x5f3C...108A",
@@ -179,7 +190,7 @@
       "roi": 0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 16
+      "rank": 17
     },
     {
       "address": "0x9be1...df77",
@@ -190,7 +201,7 @@
       "roi": 0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 17
+      "rank": 18
     },
     {
       "address": "0x5b63...7287",
@@ -201,7 +212,7 @@
       "roi": -56.249588557213926,
       "pnl": -113.061673,
       "score": 0,
-      "rank": 18
+      "rank": 19
     },
     {
       "address": "0xa863...2e9b",
@@ -212,7 +223,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 19
+      "rank": 20
     },
     {
       "address": "0x6D3F...4041",
@@ -223,7 +234,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 20
+      "rank": 21
     },
     {
       "address": "0xfFA9...bC48",
@@ -234,7 +245,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 21
+      "rank": 22
     },
     {
       "address": "0x59dF...927e",
@@ -244,17 +255,6 @@
       "baseline": 204.999087,
       "roi": 0.0,
       "pnl": 0.0,
-      "score": 0,
-      "rank": 22
-    },
-    {
-      "address": "0x8A59...3399",
-      "displayName": "saba",
-      "xAccount": "@SabaScrypto",
-      "tradingVolume": 16492.498065000003,
-      "baseline": 217.022,
-      "roi": -2.0634318179723627,
-      "pnl": -4.478100999999981,
       "score": 0,
       "rank": 23
     },
