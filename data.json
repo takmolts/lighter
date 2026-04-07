@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T09:11:16.501112Z",
+    "fetchedAtUTC": "2026-04-07T09:22:08.248571Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 202683.904894
+    "totalVolumeUSDT": 216453.32147599998
   },
   "participants": [
     {
@@ -53,22 +53,22 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 19504.624632000006,
+      "tradingVolume": 22400.802560000004,
       "baseline": 217.022,
-      "roi": 3.771615780888575,
-      "pnl": 8.185236000000003,
-      "score": 1143.1415331574276,
+      "roi": 3.4064878215111873,
+      "pnl": 7.392828000000009,
+      "score": 1106.4770010264801,
       "rank": 5
     },
     {
       "address": "0xDFf0...aD1D",
       "displayName": "ブルーツ・リー",
       "xAccount": "@Key_stick_salt1",
-      "tradingVolume": 3728.890996,
+      "tradingVolume": 4394.056151999999,
       "baseline": 214.323909,
-      "roi": 4.841687541262614,
-      "pnl": 10.376894000000021,
-      "score": 633.6613591054094,
+      "roi": 7.109821797809792,
+      "pnl": 15.23804800000002,
+      "score": 1010.0948073761859,
       "rank": 6
     },
     {
@@ -97,11 +97,11 @@
       "address": "0xcF25...02BD",
       "displayName": "D3",
       "xAccount": "@dEu333",
-      "tradingVolume": 4508.108085000001,
+      "tradingVolume": 8825.237301000001,
       "baseline": 200.0,
-      "roi": 0.9838854999999995,
-      "pnl": 1.967770999999999,
-      "score": 132.12095854948586,
+      "roi": 1.755725499999997,
+      "pnl": 3.511450999999994,
+      "score": 329.87530780033524,
       "rank": 9
     },
     {
@@ -251,7 +251,7 @@
       "address": "0xfFA9...bC48",
       "displayName": "クリデス",
       "xAccount": "@crypto_death",
-      "tradingVolume": 795.2,
+      "tradingVolume": 903.7,
       "baseline": 201.000201,
       "roi": -0.00233034592835928,
       "pnl": -0.004683999999997468,
@@ -295,7 +295,7 @@
       "address": "0x7e91...cfe5",
       "displayName": "30ドルニキ",
       "xAccount": "@30dollarnikisub",
-      "tradingVolume": 51382.55561999999,
+      "tradingVolume": 57164.99990199999,
       "baseline": 243.022893,
       "roi": -1.4574709222970212,
       "pnl": -3.5419880000000035,
