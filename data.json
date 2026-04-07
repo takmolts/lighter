@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T00:09:07.443739Z",
+    "fetchedAtUTC": "2026-04-07T00:19:56.291025Z",
     "totalCount": 24,
     "totalVolumeUSDT": 63355.58907600001
   },
@@ -263,8 +263,8 @@
       "displayName": "D3",
       "xAccount": "@dEu333",
       "tradingVolume": 0,
-      "baseline": 0,
-      "roi": 0,
+      "baseline": 200.0,
+      "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
       "rank": 24
