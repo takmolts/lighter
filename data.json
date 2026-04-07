@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T02:08:15.710397Z",
+    "fetchedAtUTC": "2026-04-07T02:19:07.491285Z",
     "totalCount": 26,
-    "totalVolumeUSDT": 64502.53654100001
+    "totalVolumeUSDT": 65186.80754100001
   },
   "participants": [
     {
@@ -31,11 +31,11 @@
       "address": "0xcd38...6CeB",
       "displayName": "Rinrin",
       "xAccount": "@Edvm9r4sGY5926",
-      "tradingVolume": 3449.20748,
+      "tradingVolume": 4133.47848,
       "baseline": 445.904746,
-      "roi": 3.6120552975679754,
-      "pnl": 16.106326000000024,
-      "score": 945.9237827795824,
+      "roi": 4.201975011048661,
+      "pnl": 18.736806,
+      "score": 1204.6292400040581,
       "rank": 3
     },
     {
