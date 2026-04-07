@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T14:37:16.275869Z",
+    "fetchedAtUTC": "2026-04-07T14:48:06.696340Z",
     "totalCount": 30,
-    "totalVolumeUSDT": 669663.682781
+    "totalVolumeUSDT": 680102.551329
   },
   "participants": [
     {
@@ -53,11 +53,11 @@
       "address": "0x370c...6620",
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
-      "tradingVolume": 20313.21556,
+      "tradingVolume": 22479.645258000004,
       "baseline": 203.445579,
       "roi": 7.625530166964205,
       "pnl": 15.513803999999993,
-      "score": 2211.0962035689377,
+      "score": 2326.0177635731065,
       "rank": 5
     },
     {
@@ -97,11 +97,11 @@
       "address": "0xfFA9...bC48",
       "displayName": "クリデス",
       "xAccount": "@crypto_death",
-      "tradingVolume": 2784.3139999999994,
+      "tradingVolume": 3760.8287,
       "baseline": 201.000201,
-      "roi": 2.2371614444305985,
-      "pnl": 4.496699000000007,
-      "score": 237.2755142338393,
+      "roi": 3.7220853326410266,
+      "pnl": 7.481398999999982,
+      "score": 458.8012510788001,
       "rank": 9
     },
     {
@@ -306,10 +306,10 @@
       "address": "0xcF25...02BD",
       "displayName": "D3",
       "xAccount": "@dEu333",
-      "tradingVolume": 86679.40250499999,
+      "tradingVolume": 93975.32665499998,
       "baseline": 200.0,
-      "roi": -7.521282,
-      "pnl": -15.042563999999999,
+      "roi": -7.6776425000000055,
+      "pnl": -15.35528500000001,
       "score": 0,
       "rank": 28
     },
