@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T06:45:21.967335Z",
+    "fetchedAtUTC": "2026-04-07T06:56:10.794160Z",
     "totalCount": 28,
     "totalVolumeUSDT": 94183.54205700003
   },
@@ -208,7 +208,7 @@
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
       "tradingVolume": 0,
-      "baseline": 20.0,
+      "baseline": 203.445579,
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
