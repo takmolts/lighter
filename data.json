@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T18:09:17.428119Z",
+    "fetchedAtUTC": "2026-04-07T18:20:09.449626Z",
     "totalCount": 31,
-    "totalVolumeUSDT": 947376.7500659998
+    "totalVolumeUSDT": 947726.3454659998
   },
   "participants": [
     {
@@ -75,11 +75,11 @@
       "address": "0xDFf0...aD1D",
       "displayName": "ブルーツ・リー",
       "xAccount": "@Key_stick_salt1",
-      "tradingVolume": 4988.866044,
+      "tradingVolume": 5338.4614440000005,
       "baseline": 214.323909,
       "roi": 8.01355111528878,
       "pnl": 17.17495600000001,
-      "score": 1213.0998654430387,
+      "score": 1254.8843073165083,
       "rank": 7
     },
     {
