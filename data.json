@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T03:41:37.188987Z",
-    "totalCount": 27,
+    "fetchedAtUTC": "2026-04-07T03:52:27.629178Z",
+    "totalCount": 28,
     "totalVolumeUSDT": 65826.75865100001
   },
   "participants": [
@@ -301,6 +301,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 27
+    },
+    {
+      "address": "0xc634...aDA6",
+      "displayName": "Sta",
+      "xAccount": "@_Stanium",
+      "tradingVolume": 0,
+      "baseline": 0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 28
     }
   ]
 }
