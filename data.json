@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T13:21:11.321568Z",
+    "fetchedAtUTC": "2026-04-07T13:32:03.678060Z",
     "totalCount": 30,
-    "totalVolumeUSDT": 623689.720433
+    "totalVolumeUSDT": 631869.075929
   },
   "participants": [
     {
@@ -273,10 +273,10 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 49238.13112200003,
+      "tradingVolume": 50332.646827000026,
       "baseline": 217.022,
-      "roi": -2.8540226336500356,
-      "pnl": -6.19385699999998,
+      "roi": -2.8815221498281254,
+      "pnl": -6.253536999999994,
       "score": 0,
       "rank": 25
     },
@@ -306,10 +306,10 @@
       "address": "0xcF25...02BD",
       "displayName": "D3",
       "xAccount": "@dEu333",
-      "tradingVolume": 56232.955328,
+      "tradingVolume": 63317.795118999995,
       "baseline": 200.0,
-      "roi": -10.537562500000007,
-      "pnl": -21.075125000000014,
+      "roi": -9.957864,
+      "pnl": -19.915728,
       "score": 0,
       "rank": 28
     },
