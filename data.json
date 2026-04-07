@@ -1,30 +1,30 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T22:27:31.666619Z",
+    "fetchedAtUTC": "2026-04-07T22:38:23.242805Z",
     "totalCount": 32,
-    "totalVolumeUSDT": 1002828.1740439999
+    "totalVolumeUSDT": 1024749.6406849998
   },
   "participants": [
+    {
+      "address": "0xA0FB...bafc",
+      "displayName": "chikupy",
+      "xAccount": "@itetoraa12",
+      "tradingVolume": 142495.136881,
+      "baseline": 200.0,
+      "roi": 23.542941499999998,
+      "pnl": 47.085882999999995,
+      "score": 17774.227744787408,
+      "rank": 1
+    },
     {
       "address": "0x4ff1...e5f4",
       "displayName": "chikenan",
       "xAccount": "@chikenan",
       "tradingVolume": 1980.6694319999997,
       "baseline": 200.0,
-      "roi": 170.94309399999997,
-      "pnl": 341.88618799999995,
-      "score": 15215.546494260809,
-      "rank": 1
-    },
-    {
-      "address": "0xA0FB...bafc",
-      "displayName": "chikupy",
-      "xAccount": "@itetoraa12",
-      "tradingVolume": 133193.45376099998,
-      "baseline": 200.0,
-      "roi": 17.1813815,
-      "pnl": 34.362763,
-      "score": 12540.923453749712,
+      "roi": 187.72589800000003,
+      "pnl": 375.45179600000006,
+      "score": 16709.374227167453,
       "rank": 2
     },
     {
@@ -33,9 +33,9 @@
       "xAccount": "@Edvm9r4sGY5926",
       "tradingVolume": 9786.22148,
       "baseline": 445.904746,
-      "roi": 22.704144081929105,
-      "pnl": 101.238856,
-      "score": 10015.087527417616,
+      "roi": 23.01249693359397,
+      "pnl": 102.61381599999999,
+      "score": 10151.105903076643,
       "rank": 3
     },
     {
@@ -53,22 +53,22 @@
       "address": "0x0D59...4baD",
       "displayName": "Shinya",
       "xAccount": "@Shinya_crypto",
-      "tradingVolume": 70755.65929700002,
+      "tradingVolume": 79275.16816200002,
       "baseline": 200.2,
-      "roi": 7.5953636363636505,
-      "pnl": 15.205918000000025,
-      "score": 4044.7644498268555,
+      "roi": 9.3316028971029,
+      "pnl": 18.681869000000006,
+      "score": 5260.038324098111,
       "rank": 5
     },
     {
       "address": "0x370c...6620",
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
-      "tradingVolume": 25741.80610000001,
+      "tradingVolume": 26843.155204000002,
       "baseline": 203.445579,
-      "roi": 7.893088696707442,
-      "pnl": 16.05814000000001,
-      "score": 2576.4086420830313,
+      "roi": 12.338652981984923,
+      "pnl": 25.10244399999999,
+      "score": 4112.754517949015,
       "rank": 6
     },
     {
@@ -99,9 +99,9 @@
       "xAccount": "@Key_stick_salt1",
       "tradingVolume": 5338.4614440000005,
       "baseline": 214.323909,
-      "roi": 5.320419477791451,
-      "pnl": 11.402931000000024,
-      "score": 833.1525955183212,
+      "roi": 4.022738778994568,
+      "pnl": 8.621691000000027,
+      "score": 629.9419188283221,
       "rank": 9
     },
     {
@@ -220,8 +220,8 @@
       "xAccount": "@agnello_axie",
       "tradingVolume": 3501.390337,
       "baseline": 424.67630299999996,
-      "roi": -15.059708664742704,
-      "pnl": -63.95501399999998,
+      "roi": -5.342124069493943,
+      "pnl": -22.686735000000027,
       "score": 0,
       "rank": 20
     },
@@ -253,8 +253,8 @@
       "xAccount": "@inv32561",
       "tradingVolume": 441.484603,
       "baseline": 201.0,
-      "roi": -1.2677487562188985,
-      "pnl": -2.5481749999999863,
+      "roi": -4.422833333333331,
+      "pnl": -8.889894999999996,
       "score": 0,
       "rank": 23
     },
@@ -275,8 +275,8 @@
       "xAccount": "@NiraAxPxC",
       "tradingVolume": 15360.105253999998,
       "baseline": 300.0,
-      "roi": -72.83124366666667,
-      "pnl": -218.493731,
+      "roi": -81.24090866666667,
+      "pnl": -243.722726,
       "score": 0,
       "rank": 25
     },
@@ -284,10 +284,10 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 109225.76489899999,
+      "tradingVolume": 112224.69045099994,
       "baseline": 217.022,
-      "roi": -19.491578273170454,
-      "pnl": -42.30101299999998,
+      "roi": -15.186529937057061,
+      "pnl": -32.958110999999974,
       "score": 0,
       "rank": 26
     },
@@ -353,7 +353,7 @@
       "tradingVolume": 0,
       "baseline": 0,
       "roi": 0,
-      "pnl": 185.575552,
+      "pnl": 161.34155199999998,
       "score": 0,
       "rank": 32
     }
