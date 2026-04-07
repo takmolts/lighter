@@ -1,19 +1,19 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T15:37:06.373234Z",
-    "totalCount": 30,
-    "totalVolumeUSDT": 699403.1248670002
+    "fetchedAtUTC": "2026-04-07T15:47:57.824972Z",
+    "totalCount": 31,
+    "totalVolumeUSDT": 758267.2237190001
   },
   "participants": [
     {
       "address": "0x7e91...cfe5",
       "displayName": "30ドルニキ",
       "xAccount": "@30dollarnikisub",
-      "tradingVolume": 227890.4093130001,
+      "tradingVolume": 286754.50816500006,
       "baseline": 243.022893,
-      "roi": 44.22486279924254,
-      "pnl": 107.476541,
-      "score": 51307.00985828329,
+      "roi": 48.18586741126482,
+      "pnl": 117.102689,
+      "score": 62707.862146536296,
       "rank": 1
     },
     {
@@ -94,17 +94,6 @@
       "rank": 8
     },
     {
-      "address": "0x8B68...E59f",
-      "displayName": "Tsun",
-      "xAccount": "@tsun_crypto",
-      "tradingVolume": 5488.970330000001,
-      "baseline": 200.99,
-      "roi": 3.621410517936215,
-      "pnl": 7.278672999999998,
-      "score": 539.2593084488543,
-      "rank": 9
-    },
-    {
       "address": "0xa267...664F",
       "displayName": "taju",
       "xAccount": "@taju_crypto",
@@ -113,7 +102,7 @@
       "roi": 1.2578845838625876,
       "pnl": 2.577935999999994,
       "score": 111.83986862195906,
-      "rank": 10
+      "rank": 9
     },
     {
       "address": "0x4ff1...e5f4",
@@ -124,7 +113,7 @@
       "roi": 0.22808249999999927,
       "pnl": 0.4561649999999986,
       "score": 20.30149216368595,
-      "rank": 11
+      "rank": 10
     },
     {
       "address": "0xe949...aff5",
@@ -135,7 +124,7 @@
       "roi": 0.032519900497519454,
       "pnl": 0.0653650000000141,
       "score": 1.373418985187841,
-      "rank": 12
+      "rank": 11
     },
     {
       "address": "0x5550...B55C",
@@ -145,6 +134,17 @@
       "baseline": 211.485575,
       "roi": -97.23662807735232,
       "pnl": -205.641442,
+      "score": 0,
+      "rank": 12
+    },
+    {
+      "address": "0x8B68...E59f",
+      "displayName": "Tsun",
+      "xAccount": "@tsun_crypto",
+      "tradingVolume": 5488.970330000001,
+      "baseline": 210.99,
+      "roi": -1.289789563486422,
+      "pnl": -2.7213270000000023,
       "score": 0,
       "rank": 13
     },
@@ -334,6 +334,17 @@
       "pnl": 9.937359,
       "score": 0,
       "rank": 30
+    },
+    {
+      "address": "0x9DEd...0589",
+      "displayName": "kumine",
+      "xAccount": "@Kek1914131",
+      "tradingVolume": 0,
+      "baseline": 0,
+      "roi": 0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 31
     }
   ]
 }
