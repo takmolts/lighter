@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T12:26:54.175596Z",
+    "fetchedAtUTC": "2026-04-07T12:37:46.064743Z",
     "totalCount": 30,
-    "totalVolumeUSDT": 580733.1321469999
+    "totalVolumeUSDT": 607130.852801
   },
   "participants": [
     {
@@ -28,6 +28,17 @@
       "rank": 2
     },
     {
+      "address": "0x7e91...cfe5",
+      "displayName": "30ドルニキ",
+      "xAccount": "@30dollarnikisub",
+      "tradingVolume": 192330.77982100003,
+      "baseline": 243.022893,
+      "roi": 2.8650683538690327,
+      "pnl": 6.962772000000001,
+      "score": 3053.560790826532,
+      "rank": 3
+    },
+    {
       "address": "0xcd38...6CeB",
       "displayName": "Rinrin",
       "xAccount": "@Edvm9r4sGY5926",
@@ -36,28 +47,17 @@
       "roi": 6.442536944874769,
       "pnl": 28.727577999999994,
       "score": 2399.618129266848,
-      "rank": 3
-    },
-    {
-      "address": "0x7e91...cfe5",
-      "displayName": "30ドルニキ",
-      "xAccount": "@30dollarnikisub",
-      "tradingVolume": 170708.05064600002,
-      "baseline": 243.022893,
-      "roi": 2.0973970546881713,
-      "pnl": 5.097154999999987,
-      "score": 2105.9829064111536,
       "rank": 4
     },
     {
       "address": "0x370c...6620",
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
-      "tradingVolume": 16037.182001,
+      "tradingVolume": 20313.21556,
       "baseline": 203.445579,
-      "roi": 7.175268723829091,
-      "pnl": 14.597767000000005,
-      "score": 1848.6319572318514,
+      "roi": 7.625530166964205,
+      "pnl": 15.513803999999993,
+      "score": 2211.0962035689377,
       "rank": 5
     },
     {
@@ -273,10 +273,10 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 46543.84024700004,
+      "tradingVolume": 47042.79816700004,
       "baseline": 217.022,
-      "roi": -3.01070582705901,
-      "pnl": -6.533894000000004,
+      "roi": -3.0719927012007995,
+      "pnl": -6.666899999999998,
       "score": 0,
       "rank": 25
     },
