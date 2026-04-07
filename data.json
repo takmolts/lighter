@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T08:49:32.353297Z",
+    "fetchedAtUTC": "2026-04-07T09:00:24.546511Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 161215.218938
+    "totalVolumeUSDT": 163632.17670200003
   },
   "participants": [
     {
@@ -39,6 +39,17 @@
       "rank": 3
     },
     {
+      "address": "0xcd38...6CeB",
+      "displayName": "Rinrin",
+      "xAccount": "@Edvm9r4sGY5926",
+      "tradingVolume": 5512.1644799999995,
+      "baseline": 445.904746,
+      "roi": 4.198054891301836,
+      "pnl": 18.719326000000024,
+      "score": 1389.7967500202253,
+      "rank": 4
+    },
+    {
       "address": "0x0D59...4baD",
       "displayName": "Shinya",
       "xAccount": "@Shinya_crypto",
@@ -47,18 +58,18 @@
       "roi": 3.379625874125884,
       "pnl": 6.76601100000002,
       "score": 1379.2346986923012,
-      "rank": 4
+      "rank": 5
     },
     {
-      "address": "0xcd38...6CeB",
-      "displayName": "Rinrin",
-      "xAccount": "@Edvm9r4sGY5926",
-      "tradingVolume": 4133.47848,
-      "baseline": 445.904746,
-      "roi": 4.195456578522267,
-      "pnl": 18.70774,
-      "score": 1202.7605248404407,
-      "rank": 5
+      "address": "0x8A59...3399",
+      "displayName": "saba",
+      "xAccount": "@SabaScrypto",
+      "tradingVolume": 18931.773305000006,
+      "baseline": 217.022,
+      "roi": 2.139687681433223,
+      "pnl": 4.64359300000001,
+      "score": 638.9248733806329,
+      "rank": 6
     },
     {
       "address": "0xDFf0...aD1D",
@@ -69,7 +80,7 @@
       "roi": 4.837925945070378,
       "pnl": 10.368832000000026,
       "score": 633.1690559290345,
-      "rank": 6
+      "rank": 7
     },
     {
       "address": "0x370c...6620",
@@ -80,7 +91,7 @@
       "roi": 2.875884562721308,
       "pnl": 5.850859999999983,
       "score": 616.8448227010159,
-      "rank": 7
+      "rank": 8
     },
     {
       "address": "0x8B68...E59f",
@@ -91,17 +102,6 @@
       "roi": 3.621410517936215,
       "pnl": 7.278672999999998,
       "score": 539.2593084488543,
-      "rank": 8
-    },
-    {
-      "address": "0x8A59...3399",
-      "displayName": "saba",
-      "xAccount": "@SabaScrypto",
-      "tradingVolume": 18361.701541000002,
-      "baseline": 217.022,
-      "roi": 1.1542023389333818,
-      "pnl": 2.5048730000000035,
-      "score": 339.4237079354214,
       "rank": 9
     },
     {
@@ -262,7 +262,7 @@
       "address": "0xfFA9...bC48",
       "displayName": "クリデス",
       "xAccount": "@crypto_death",
-      "tradingVolume": 0,
+      "tradingVolume": 468.20000000000005,
       "baseline": 201.000201,
       "roi": 0.0,
       "pnl": 0.0,
