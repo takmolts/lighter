@@ -1,19 +1,19 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T11:43:28.341672Z",
+    "fetchedAtUTC": "2026-04-07T11:54:21.029076Z",
     "totalCount": 29,
-    "totalVolumeUSDT": 473438.75408400013
+    "totalVolumeUSDT": 481946.7733470001
   },
   "participants": [
     {
       "address": "0xA0FB...bafc",
       "displayName": "chikupy",
       "xAccount": "@itetoraa12",
-      "tradingVolume": 99254.73349399999,
+      "tradingVolume": 107762.75275699998,
       "baseline": 200.0,
-      "roi": 7.905254999999997,
-      "pnl": 15.810509999999994,
-      "score": 4981.056787289121,
+      "roi": 8.183750500000002,
+      "pnl": 16.367501000000004,
+      "score": 5372.998440266401,
       "rank": 1
     },
     {
