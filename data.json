@@ -1,10 +1,21 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T14:15:33.406521Z",
+    "fetchedAtUTC": "2026-04-07T14:26:25.456523Z",
     "totalCount": 30,
-    "totalVolumeUSDT": 652033.781498
+    "totalVolumeUSDT": 662407.931753
   },
   "participants": [
+    {
+      "address": "0x7e91...cfe5",
+      "displayName": "30ドルニキ",
+      "xAccount": "@30dollarnikisub",
+      "tradingVolume": 213179.46904100006,
+      "baseline": 243.022893,
+      "roi": 44.22486279924254,
+      "pnl": 107.476541,
+      "score": 49623.38306013275,
+      "rank": 1
+    },
     {
       "address": "0x0D59...4baD",
       "displayName": "Shinya",
@@ -14,7 +25,7 @@
       "roi": 7.5953636363636505,
       "pnl": 15.205918000000025,
       "score": 4044.7644498268555,
-      "rank": 1
+      "rank": 2
     },
     {
       "address": "0xA0FB...bafc",
@@ -25,17 +36,6 @@
       "roi": 4.519892999999996,
       "pnl": 9.039785999999992,
       "score": 3247.165437805945,
-      "rank": 2
-    },
-    {
-      "address": "0x7e91...cfe5",
-      "displayName": "30ドルニキ",
-      "xAccount": "@30dollarnikisub",
-      "tradingVolume": 202805.31878600002,
-      "baseline": 243.022893,
-      "roi": 2.9165281149047937,
-      "pnl": 7.087830999999994,
-      "score": 3191.927542068223,
       "rank": 3
     },
     {
