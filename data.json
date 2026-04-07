@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T14:26:25.456523Z",
+    "fetchedAtUTC": "2026-04-07T14:37:16.275869Z",
     "totalCount": 30,
-    "totalVolumeUSDT": 662407.931753
+    "totalVolumeUSDT": 669663.682781
   },
   "participants": [
     {
@@ -306,10 +306,10 @@
       "address": "0xcF25...02BD",
       "displayName": "D3",
       "xAccount": "@dEu333",
-      "tradingVolume": 79423.65147699998,
+      "tradingVolume": 86679.40250499999,
       "baseline": 200.0,
-      "roi": -8.783744499999997,
-      "pnl": -17.567488999999995,
+      "roi": -7.521282,
+      "pnl": -15.042563999999999,
       "score": 0,
       "rank": 28
     },
@@ -318,9 +318,9 @@
       "displayName": "Sta",
       "xAccount": "@_Stanium",
       "tradingVolume": 0,
-      "baseline": 0,
-      "roi": 0,
-      "pnl": 0.0,
+      "baseline": 10.0,
+      "roi": 2018.99002,
+      "pnl": 201.899002,
       "score": 0,
       "rank": 29
     },
