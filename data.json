@@ -1,19 +1,19 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T11:32:37.531695Z",
+    "fetchedAtUTC": "2026-04-07T11:43:28.341672Z",
     "totalCount": 29,
-    "totalVolumeUSDT": 462263.8102100001
+    "totalVolumeUSDT": 473438.75408400013
   },
   "participants": [
     {
       "address": "0xA0FB...bafc",
       "displayName": "chikupy",
       "xAccount": "@itetoraa12",
-      "tradingVolume": 90727.97112899998,
+      "tradingVolume": 99254.73349399999,
       "baseline": 200.0,
-      "roi": 7.763496500000003,
-      "pnl": 15.526993000000004,
-      "score": 4676.898629862286,
+      "roi": 7.905254999999997,
+      "pnl": 15.810509999999994,
+      "score": 4981.056787289121,
       "rank": 1
     },
     {
@@ -64,11 +64,11 @@
       "address": "0x370c...6620",
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
-      "tradingVolume": 13938.582937999998,
+      "tradingVolume": 14990.62334,
       "baseline": 203.445579,
       "roi": 4.474602517659027,
       "pnl": 9.103380999999985,
-      "score": 1074.7613279143352,
+      "score": 1114.583386813366,
       "rank": 6
     },
     {
@@ -273,10 +273,10 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 44050.589070000024,
+      "tradingVolume": 45646.73017700003,
       "baseline": 217.022,
-      "roi": -2.4872155818304162,
-      "pnl": -5.397805000000005,
+      "roi": -2.965580448065168,
+      "pnl": -6.435961999999989,
       "score": 0,
       "rank": 25
     },
