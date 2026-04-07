@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T12:37:46.064743Z",
+    "fetchedAtUTC": "2026-04-07T12:48:37.086875Z",
     "totalCount": 30,
-    "totalVolumeUSDT": 607130.852801
+    "totalVolumeUSDT": 607230.491377
   },
   "participants": [
     {
@@ -273,7 +273,7 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 47042.79816700004,
+      "tradingVolume": 47142.436743000035,
       "baseline": 217.022,
       "roi": -3.0719927012007995,
       "pnl": -6.666899999999998,
