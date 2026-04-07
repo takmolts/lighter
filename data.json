@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T07:28:38.269482Z",
+    "fetchedAtUTC": "2026-04-07T07:39:28.756124Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 114611.21253700001
+    "totalVolumeUSDT": 119382.42555600002
   },
   "participants": [
     {
@@ -53,11 +53,11 @@
       "address": "0x370c...6620",
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
-      "tradingVolume": 4027.760682,
+      "tradingVolume": 4534.372267,
       "baseline": 203.445579,
       "roi": 1.0653984277534991,
       "pnl": 2.167506000000003,
-      "score": 137.55999057783754,
+      "score": 145.95497219345415,
       "rank": 5
     },
     {
@@ -141,10 +141,10 @@
       "address": "0xDFf0...aD1D",
       "displayName": "ブルーツ・リー",
       "xAccount": "@Key_stick_salt1",
-      "tradingVolume": 3419.944314,
+      "tradingVolume": 3728.890996,
       "baseline": 214.323909,
-      "roi": -51.37999186082407,
-      "pnl": -110.11960699999999,
+      "roi": -99.53650248139138,
+      "pnl": -213.330523,
       "score": 0,
       "rank": 13
     },
@@ -273,7 +273,7 @@
       "address": "0x0D59...4baD",
       "displayName": "Shinya",
       "xAccount": "@Shinya_crypto",
-      "tradingVolume": 17508.076137,
+      "tradingVolume": 21463.730889000002,
       "baseline": 200.2,
       "roi": -0.12777172827172634,
       "pnl": -0.2557989999999961,
