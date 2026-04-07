@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T17:25:51.983356Z",
+    "fetchedAtUTC": "2026-04-07T17:36:44.148504Z",
     "totalCount": 31,
-    "totalVolumeUSDT": 942377.4955059998
+    "totalVolumeUSDT": 942707.8255059998
   },
   "participants": [
     {
@@ -75,11 +75,11 @@
       "address": "0xfFA9...bC48",
       "displayName": "クリデス",
       "xAccount": "@crypto_death",
-      "tradingVolume": 6082.588699999999,
+      "tradingVolume": 6412.918699999999,
       "baseline": 201.000201,
-      "roi": 6.984445254360713,
-      "pnl": 14.038748999999996,
-      "score": 1094.895408951337,
+      "roi": 6.954594537942772,
+      "pnl": 13.978748999999993,
+      "score": 1119.4280214100106,
       "rank": 7
     },
     {
