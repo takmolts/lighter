@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T17:15:00.052786Z",
+    "fetchedAtUTC": "2026-04-07T17:25:51.983356Z",
     "totalCount": 31,
-    "totalVolumeUSDT": 941946.8496139997
+    "totalVolumeUSDT": 942377.4955059998
   },
   "participants": [
     {
@@ -61,6 +61,17 @@
       "rank": 5
     },
     {
+      "address": "0xDFf0...aD1D",
+      "displayName": "ブルーツ・リー",
+      "xAccount": "@Key_stick_salt1",
+      "tradingVolume": 4988.866044,
+      "baseline": 214.323909,
+      "roi": 8.01355111528878,
+      "pnl": 17.17495600000001,
+      "score": 1213.0998654430387,
+      "rank": 6
+    },
+    {
       "address": "0xfFA9...bC48",
       "displayName": "クリデス",
       "xAccount": "@crypto_death",
@@ -69,17 +80,6 @@
       "roi": 6.984445254360713,
       "pnl": 14.038748999999996,
       "score": 1094.895408951337,
-      "rank": 6
-    },
-    {
-      "address": "0xDFf0...aD1D",
-      "displayName": "ブルーツ・リー",
-      "xAccount": "@Key_stick_salt1",
-      "tradingVolume": 4558.220152,
-      "baseline": 214.323909,
-      "roi": 7.109821797809792,
-      "pnl": 15.23804800000002,
-      "score": 1028.7905957488665,
       "rank": 7
     },
     {
