@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T05:19:04.242938Z",
+    "fetchedAtUTC": "2026-04-07T05:29:51.078213Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 79330.26217300001
+    "totalVolumeUSDT": 80976.36447700002
   },
   "participants": [
     {
@@ -50,6 +50,17 @@
       "rank": 4
     },
     {
+      "address": "0xDFf0...aD1D",
+      "displayName": "ブルーツ・リー",
+      "xAccount": "@Key_stick_salt1",
+      "tradingVolume": 2448.719826,
+      "baseline": 214.323909,
+      "roi": 4.083484684856144,
+      "pnl": 8.751884000000018,
+      "score": 433.08296510300687,
+      "rank": 5
+    },
+    {
       "address": "0x0D59...4baD",
       "displayName": "Shinya",
       "xAccount": "@Shinya_crypto",
@@ -58,7 +69,7 @@
       "roi": 0.32664485514485425,
       "pnl": 0.6539429999999982,
       "score": 26.148863777407932,
-      "rank": 5
+      "rank": 6
     },
     {
       "address": "0xa267...664F",
@@ -69,7 +80,7 @@
       "roi": 0.027422857471124655,
       "pnl": 0.05620100000001571,
       "score": 1.8467199910125385,
-      "rank": 6
+      "rank": 7
     },
     {
       "address": "0xe949...aff5",
@@ -80,7 +91,7 @@
       "roi": 0.011688059701493524,
       "pnl": 0.023493000000001985,
       "score": 0.4936239917236091,
-      "rank": 7
+      "rank": 8
     },
     {
       "address": "0x3Af6...bb91",
@@ -91,7 +102,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 8
+      "rank": 9
     },
     {
       "address": "0x2fb3...9ba1",
@@ -102,7 +113,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 9
+      "rank": 10
     },
     {
       "address": "0x920D...4498",
@@ -113,7 +124,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 10
+      "rank": 11
     },
     {
       "address": "0xAb5a...2EEB",
@@ -124,7 +135,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "address": "0xbFe0...f673",
@@ -134,17 +145,6 @@
       "baseline": 0.0,
       "roi": 0,
       "pnl": 0.0,
-      "score": 0,
-      "rank": 12
-    },
-    {
-      "address": "0xDFf0...aD1D",
-      "displayName": "ブルーツ・リー",
-      "xAccount": "@Key_stick_salt1",
-      "tradingVolume": 1801.7957940000001,
-      "baseline": 214.323909,
-      "roi": -98.96133426719088,
-      "pnl": -212.09779999999998,
       "score": 0,
       "rank": 13
     },
@@ -240,10 +240,10 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 9995.675403,
+      "tradingVolume": 10994.853675,
       "baseline": 217.022,
-      "roi": -1.2908179815871161,
-      "pnl": -2.801358999999991,
+      "roi": -1.5146330786740447,
+      "pnl": -3.2870869999999854,
       "score": 0,
       "rank": 22
     },
