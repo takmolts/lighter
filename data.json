@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T05:08:13.359262Z",
+    "fetchedAtUTC": "2026-04-07T05:19:04.242938Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 78531.12916500002
+    "totalVolumeUSDT": 79330.26217300001
   },
   "participants": [
     {
@@ -50,6 +50,17 @@
       "rank": 4
     },
     {
+      "address": "0x0D59...4baD",
+      "displayName": "Shinya",
+      "xAccount": "@Shinya_crypto",
+      "tradingVolume": 1598.9167589999997,
+      "baseline": 200.2,
+      "roi": 0.32664485514485425,
+      "pnl": 0.6539429999999982,
+      "score": 26.148863777407932,
+      "rank": 5
+    },
+    {
       "address": "0xa267...664F",
       "displayName": "taju",
       "xAccount": "@taju_crypto",
@@ -58,7 +69,7 @@
       "roi": 0.027422857471124655,
       "pnl": 0.05620100000001571,
       "score": 1.8467199910125385,
-      "rank": 5
+      "rank": 6
     },
     {
       "address": "0xe949...aff5",
@@ -69,17 +80,6 @@
       "roi": 0.011688059701493524,
       "pnl": 0.023493000000001985,
       "score": 0.4936239917236091,
-      "rank": 6
-    },
-    {
-      "address": "0x0D59...4baD",
-      "displayName": "Shinya",
-      "xAccount": "@Shinya_crypto",
-      "tradingVolume": 799.7837509999999,
-      "baseline": 200.2,
-      "roi": 0.0015984015984120698,
-      "pnl": 0.003200000000020964,
-      "score": 0.09049743427494121,
       "rank": 7
     },
     {
