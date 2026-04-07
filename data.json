@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T09:33:01.560189Z",
+    "fetchedAtUTC": "2026-04-07T09:43:55.054466Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 217051.66158499997
+    "totalVolumeUSDT": 223660.21779799997
   },
   "participants": [
     {
@@ -31,11 +31,11 @@
       "address": "0xcd38...6CeB",
       "displayName": "Rinrin",
       "xAccount": "@Edvm9r4sGY5926",
-      "tradingVolume": 5512.1644799999995,
+      "tradingVolume": 5608.60548,
       "baseline": 445.904746,
       "roi": 4.198054891301836,
       "pnl": 18.719326000000024,
-      "score": 1389.7967500202253,
+      "score": 1401.9019946126016,
       "rank": 3
     },
     {
@@ -94,17 +94,6 @@
       "rank": 8
     },
     {
-      "address": "0xcF25...02BD",
-      "displayName": "D3",
-      "xAccount": "@dEu333",
-      "tradingVolume": 8825.237301000001,
-      "baseline": 200.0,
-      "roi": 1.755725499999997,
-      "pnl": 3.511450999999994,
-      "score": 329.87530780033524,
-      "rank": 9
-    },
-    {
       "address": "0xa267...664F",
       "displayName": "taju",
       "xAccount": "@taju_crypto",
@@ -113,7 +102,7 @@
       "roi": 1.2578845838625876,
       "pnl": 2.577935999999994,
       "score": 111.83986862195906,
-      "rank": 10
+      "rank": 9
     },
     {
       "address": "0x4ff1...e5f4",
@@ -124,6 +113,17 @@
       "roi": 0.05743699999999308,
       "pnl": 0.11487399999998615,
       "score": 5.11243434022993,
+      "rank": 10
+    },
+    {
+      "address": "0xcF25...02BD",
+      "displayName": "D3",
+      "xAccount": "@dEu333",
+      "tradingVolume": 15337.352513999997,
+      "baseline": 200.0,
+      "roi": 0.01837000000000444,
+      "pnl": 0.03674000000000888,
+      "score": 4.550030959711877,
       "rank": 11
     },
     {
