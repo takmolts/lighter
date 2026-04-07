@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T08:06:04.612135Z",
+    "fetchedAtUTC": "2026-04-07T08:16:57.698919Z",
     "totalCount": 28,
-    "totalVolumeUSDT": 139472.51427500002
+    "totalVolumeUSDT": 140440.37055700002
   },
   "participants": [
     {
@@ -75,12 +75,23 @@
       "address": "0x370c...6620",
       "displayName": "じょい",
       "xAccount": "@joyjoycrypto",
-      "tradingVolume": 4534.372267,
+      "tradingVolume": 5502.228549,
       "baseline": 203.445579,
-      "roi": 1.0624217103287372,
-      "pnl": 2.161450000000002,
-      "score": 145.54717479330685,
+      "roi": 1.610260107937761,
+      "pnl": 3.276003000000003,
+      "score": 243.0041014714497,
       "rank": 7
+    },
+    {
+      "address": "0xa267...664F",
+      "displayName": "taju",
+      "xAccount": "@taju_crypto",
+      "tradingVolume": 1079.727132,
+      "baseline": 204.942173,
+      "roi": 1.2578845838625876,
+      "pnl": 2.577935999999994,
+      "score": 84.70891882261094,
+      "rank": 8
     },
     {
       "address": "0x4ff1...e5f4",
@@ -91,17 +102,6 @@
       "roi": 0.02456650000000593,
       "pnl": 0.04913300000001186,
       "score": 2.1866500377684077,
-      "rank": 8
-    },
-    {
-      "address": "0xa267...664F",
-      "displayName": "taju",
-      "xAccount": "@taju_crypto",
-      "tradingVolume": 1079.727132,
-      "baseline": 204.942173,
-      "roi": 0.02273616958281879,
-      "pnl": 0.046595999999993865,
-      "score": 1.5311073593207392,
       "rank": 9
     },
     {
