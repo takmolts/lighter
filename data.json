@@ -1,7 +1,7 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-07T03:09:00.510976Z",
-    "totalCount": 26,
+    "fetchedAtUTC": "2026-04-07T03:19:50.523246Z",
+    "totalCount": 27,
     "totalVolumeUSDT": 65826.75865100001
   },
   "participants": [
@@ -290,6 +290,17 @@
       "pnl": 0.0,
       "score": 0,
       "rank": 26
+    },
+    {
+      "address": "0x4ff1...e5f4",
+      "displayName": "chikenan",
+      "xAccount": "@chikenan",
+      "tradingVolume": 0,
+      "baseline": 200.0,
+      "roi": 0.0,
+      "pnl": 0.0,
+      "score": 0,
+      "rank": 27
     }
   ]
 }
