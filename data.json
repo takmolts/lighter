@@ -1,19 +1,19 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-08T00:26:48.972350Z",
+    "fetchedAtUTC": "2026-04-08T00:37:39.704191Z",
     "totalCount": 32,
-    "totalVolumeUSDT": 1143117.5203129998
+    "totalVolumeUSDT": 1170193.0379479998
   },
   "participants": [
     {
       "address": "0x5b63...7287",
       "displayName": "agnello",
       "xAccount": "@agnello_axie",
-      "tradingVolume": 25359.493089999996,
+      "tradingVolume": 46443.16169000001,
       "baseline": 424.67630299999996,
-      "roi": 83.92014541013843,
-      "pnl": 356.3889710000001,
-      "score": 56753.74699141276,
+      "roi": 71.65732155297586,
+      "pnl": 304.31166400000006,
+      "score": 65581.2193862945,
       "rank": 1
     },
     {
@@ -22,9 +22,9 @@
       "xAccount": "@chikenan",
       "tradingVolume": 1980.6694319999997,
       "baseline": 200.0,
-      "roi": 189.0992475,
-      "pnl": 378.198495,
-      "score": 16831.615276402932,
+      "roi": 187.4161155,
+      "pnl": 374.832231,
+      "score": 16681.800664986233,
       "rank": 2
     },
     {
@@ -33,9 +33,9 @@
       "xAccount": "@Edvm9r4sGY5926",
       "tradingVolume": 9786.22148,
       "baseline": 445.904746,
-      "roi": 20.124883129187424,
-      "pnl": 89.73780900000003,
-      "score": 8877.34262478909,
+      "roi": 19.893920797156074,
+      "pnl": 88.70793699999996,
+      "score": 8775.462194393498,
       "rank": 3
     },
     {
@@ -83,15 +83,26 @@
       "rank": 7
     },
     {
+      "address": "0xcF25...02BD",
+      "displayName": "D3",
+      "xAccount": "@dEu333",
+      "tradingVolume": 101682.47428299996,
+      "baseline": 200.0,
+      "roi": 2.351873999999995,
+      "pnl": 4.70374799999999,
+      "score": 1499.9165579739372,
+      "rank": 8
+    },
+    {
       "address": "0xDFf0...aD1D",
       "displayName": "ブルーツ・リー",
       "xAccount": "@Key_stick_salt1",
       "tradingVolume": 5338.4614440000005,
       "baseline": 214.323909,
-      "roi": 8.48009589074825,
-      "pnl": 18.17487300000002,
-      "score": 1327.9430186121306,
-      "rank": 8
+      "roi": 7.496272849334802,
+      "pnl": 16.06630500000003,
+      "score": 1173.8809707029689,
+      "rank": 9
     },
     {
       "address": "0xfFA9...bC48",
@@ -102,7 +113,7 @@
       "roi": 6.954594537942772,
       "pnl": 13.978748999999993,
       "score": 1119.4280214100106,
-      "rank": 9
+      "rank": 10
     },
     {
       "address": "0xa267...664F",
@@ -113,7 +124,7 @@
       "roi": 1.2578845838625876,
       "pnl": 2.577935999999994,
       "score": 111.83986862195906,
-      "rank": 10
+      "rank": 11
     },
     {
       "address": "0x5550...B55C",
@@ -124,7 +135,7 @@
       "roi": -97.23662807735232,
       "pnl": -205.641442,
       "score": 0,
-      "rank": 11
+      "rank": 12
     },
     {
       "address": "0x3Af6...bb91",
@@ -135,7 +146,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 12
+      "rank": 13
     },
     {
       "address": "0x2fb3...9ba1",
@@ -146,7 +157,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 13
+      "rank": 14
     },
     {
       "address": "0x920D...4498",
@@ -157,7 +168,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 14
+      "rank": 15
     },
     {
       "address": "0xAb5a...2EEB",
@@ -168,7 +179,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 15
+      "rank": 16
     },
     {
       "address": "0xbFe0...f673",
@@ -179,7 +190,7 @@
       "roi": 0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 16
+      "rank": 17
     },
     {
       "address": "0x5f3C...108A",
@@ -190,7 +201,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 17
+      "rank": 18
     },
     {
       "address": "0x9be1...df77",
@@ -201,7 +212,7 @@
       "roi": 0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 18
+      "rank": 19
     },
     {
       "address": "0xa863...2e9b",
@@ -212,7 +223,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 19
+      "rank": 20
     },
     {
       "address": "0x6D3F...4041",
@@ -223,7 +234,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 20
+      "rank": 21
     },
     {
       "address": "0xe949...aff5",
@@ -231,10 +242,10 @@
       "xAccount": "@inv32561",
       "tradingVolume": 441.484603,
       "baseline": 201.0,
-      "roi": -9.903922885572133,
-      "pnl": -19.90688499999999,
+      "roi": -9.034225870646766,
+      "pnl": -18.158794,
       "score": 0,
-      "rank": 21
+      "rank": 22
     },
     {
       "address": "0x59dF...927e",
@@ -245,7 +256,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 22
+      "rank": 23
     },
     {
       "address": "0x2c12...cc9D",
@@ -253,21 +264,21 @@
       "xAccount": "@NiraAxPxC",
       "tradingVolume": 18169.425487,
       "baseline": 300.0,
-      "roi": -79.42286633333333,
-      "pnl": -238.268599,
+      "roi": -81.66448633333333,
+      "pnl": -244.993459,
       "score": 0,
-      "rank": 23
+      "rank": 24
     },
     {
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 147410.40430200013,
+      "tradingVolume": 153402.25333700006,
       "baseline": 217.022,
-      "roi": -18.02094534194689,
-      "pnl": -39.10941599999998,
+      "roi": -20.660350102754542,
+      "pnl": -44.837504999999965,
       "score": 0,
-      "rank": 24
+      "rank": 25
     },
     {
       "address": "0xcFCE...1867",
@@ -278,7 +289,7 @@
       "roi": 0.0,
       "pnl": 0.0,
       "score": 0,
-      "rank": 25
+      "rank": 26
     },
     {
       "address": "0x9d87...bb70",
@@ -288,17 +299,6 @@
       "baseline": 204.36,
       "roi": -99.99827216676452,
       "pnl": -204.356469,
-      "score": 0,
-      "rank": 26
-    },
-    {
-      "address": "0xcF25...02BD",
-      "displayName": "D3",
-      "xAccount": "@dEu333",
-      "tradingVolume": 101682.47428299996,
-      "baseline": 200.0,
-      "roi": -2.6941095000000104,
-      "pnl": -5.388219000000021,
       "score": 0,
       "rank": 27
     },
@@ -352,8 +352,8 @@
       "xAccount": "@Akiirrrrrrrrrr2",
       "tradingVolume": 0,
       "baseline": 203.36,
-      "roi": -31.724024390243905,
-      "pnl": -64.51397600000001,
+      "roi": -29.074535798583806,
+      "pnl": -59.12597600000004,
       "score": 0,
       "rank": 32
     }
