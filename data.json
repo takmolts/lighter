@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-08T05:18:03.759113Z",
+    "fetchedAtUTC": "2026-04-08T05:28:57.439436Z",
     "totalCount": 32,
-    "totalVolumeUSDT": 1884485.7836480003
+    "totalVolumeUSDT": 1888688.160053
   },
   "participants": [
     {
@@ -22,9 +22,9 @@
       "xAccount": "@chikenan",
       "tradingVolume": 6673.515117,
       "baseline": 200.0,
-      "roi": 191.04830199999998,
-      "pnl": 382.09660399999996,
-      "score": 31214.07733761972,
+      "roi": 191.18955999999997,
+      "pnl": 382.37911999999994,
+      "score": 31237.156517546468,
       "rank": 2
     },
     {
@@ -33,9 +33,9 @@
       "xAccount": "@Edvm9r4sGY5926",
       "tradingVolume": 9786.22148,
       "baseline": 445.904746,
-      "roi": 22.592572719555655,
-      "pnl": 100.74135399999994,
-      "score": 9965.871976472772,
+      "roi": 20.68199426610273,
+      "pnl": 92.22199399999994,
+      "score": 9123.091452781546,
       "rank": 3
     },
     {
@@ -44,9 +44,9 @@
       "xAccount": "@joyjoycrypto",
       "tradingVolume": 48976.38854999998,
       "baseline": 203.445579,
-      "roi": 16.43481326276447,
-      "pnl": 33.43590099999997,
-      "score": 7399.568748524879,
+      "roi": 16.762500894649556,
+      "pnl": 34.102566999999965,
+      "score": 7547.105998958299,
       "rank": 4
     },
     {
@@ -83,6 +83,17 @@
       "rank": 7
     },
     {
+      "address": "0xDFf0...aD1D",
+      "displayName": "ブルーツ・リー",
+      "xAccount": "@Key_stick_salt1",
+      "tradingVolume": 6223.697692,
+      "baseline": 214.323909,
+      "roi": 9.004940741352385,
+      "pnl": 19.29974100000001,
+      "score": 1522.564590720298,
+      "rank": 8
+    },
+    {
       "address": "0xfFA9...bC48",
       "displayName": "クリデス",
       "xAccount": "@crypto_death",
@@ -91,17 +102,6 @@
       "roi": 6.954594537942772,
       "pnl": 13.978748999999993,
       "score": 1119.4280214100106,
-      "rank": 8
-    },
-    {
-      "address": "0xDFf0...aD1D",
-      "displayName": "ブルーツ・リー",
-      "xAccount": "@Key_stick_salt1",
-      "tradingVolume": 6223.697692,
-      "baseline": 214.323909,
-      "roi": 5.113664196932872,
-      "pnl": 10.959804999999989,
-      "score": 864.6235726271792,
       "rank": 9
     },
     {
@@ -231,8 +231,8 @@
       "xAccount": "@inv32561",
       "tradingVolume": 441.484603,
       "baseline": 201.0,
-      "roi": -9.955734328358217,
-      "pnl": -20.011026000000015,
+      "roi": -10.08787910447761,
+      "pnl": -20.276636999999994,
       "score": 0,
       "rank": 21
     },
@@ -253,8 +253,8 @@
       "xAccount": "@NiraAxPxC",
       "tradingVolume": 18169.425487,
       "baseline": 300.0,
-      "roi": -81.29512366666667,
-      "pnl": -243.885371,
+      "roi": -81.16927833333332,
+      "pnl": -243.507835,
       "score": 0,
       "rank": 23
     },
@@ -262,10 +262,10 @@
       "address": "0x8A59...3399",
       "displayName": "saba",
       "xAccount": "@SabaScrypto",
-      "tradingVolume": 204379.92667799996,
+      "tradingVolume": 208582.30308299995,
       "baseline": 217.022,
-      "roi": -25.299133267594993,
-      "pnl": -54.904685,
+      "roi": -23.489701965699318,
+      "pnl": -50.97782099999998,
       "score": 0,
       "rank": 24
     },
@@ -297,8 +297,8 @@
       "xAccount": "@30dollarnikisub",
       "tradingVolume": 1048415.9306090003,
       "baseline": 243.022893,
-      "roi": -18.254043251801793,
-      "pnl": -44.361504,
+      "roi": -17.62621433364304,
+      "pnl": -42.835736,
       "score": 0,
       "rank": 27
     },
@@ -319,8 +319,8 @@
       "xAccount": "@itetoraa12",
       "tradingVolume": 186266.59038,
       "baseline": 200.0,
-      "roi": -27.799301500000002,
-      "pnl": -55.598603,
+      "roi": -36.923364,
+      "pnl": -73.846728,
       "score": 0,
       "rank": 29
     },
@@ -352,8 +352,8 @@
       "xAccount": "@Akiirrrrrrrrrr2",
       "tradingVolume": 20346.97936599998,
       "baseline": 203.36,
-      "roi": -31.17127458693942,
-      "pnl": -63.389904,
+      "roi": -32.78417781274589,
+      "pnl": -66.66990400000003,
       "score": 0,
       "rank": 32
     }
