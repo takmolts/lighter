@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wagyu Bull Run Lighter Cup</title>
-  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="style.css?v=7">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
@@ -59,40 +59,46 @@
     <!-- ROI ランキング -->
     <div class="dashboard-card animate-fade-in" style="animation-delay: 0.2s;">
       <h2 class="section-title">ROI Ranking</h2>
-      <div class="table-responsive">
-        <table class="leaderboard-table">
-          <thead>
-            <tr>
-              <th>Rank</th>
-              <th>Trader</th>
-              <th>Baseline</th>
-              <th>ROI</th>
-              <th>PnL</th>
-            </tr>
-          </thead>
-          <tbody id="roi-ranking-body"></tbody>
-        </table>
+      <div class="blind-message" id="roi-blind" style="display:none;"></div>
+      <div id="roi-content">
+        <div class="table-responsive">
+          <table class="leaderboard-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Trader</th>
+                <th>Baseline</th>
+                <th>ROI</th>
+                <th>PnL</th>
+              </tr>
+            </thead>
+            <tbody id="roi-ranking-body"></tbody>
+          </table>
+        </div>
+        <p style="color: var(--text-secondary); font-size: 0.75rem; margin-top: 8px;">✅ … 最低取引量（$10,000）を達成すると名前に ✅ がつきます。</p>
       </div>
-      <p style="color: var(--text-secondary); font-size: 0.75rem; margin-top: 8px;">✅ … 最低取引量（$10,000）を達成すると名前に ✅ がつきます。</p>
     </div>
 
     <!-- Volume ランキング -->
     <div class="dashboard-card animate-fade-in" style="animation-delay: 0.3s;">
       <h2 class="section-title">Volume Ranking</h2>
-      <p style="color: var(--text-secondary); margin: 0 0 12px 0;">Total Volume: <span id="vol-total" style="color: var(--text-primary); font-weight: 600;">—</span></p>
-      <div class="table-responsive">
-        <table class="leaderboard-table">
-          <thead>
-            <tr>
-              <th>Rank</th>
-              <th>Trader</th>
-              <th>Volume</th>
-            </tr>
-          </thead>
-          <tbody id="vol-ranking-body"></tbody>
-        </table>
+      <div class="blind-message" id="vol-blind" style="display:none;"></div>
+      <div id="vol-content">
+        <p style="color: var(--text-secondary); margin: 0 0 12px 0;">Total Volume: <span id="vol-total" style="color: var(--text-primary); font-weight: 600;">—</span></p>
+        <div class="table-responsive">
+          <table class="leaderboard-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Trader</th>
+                <th>Volume</th>
+              </tr>
+            </thead>
+            <tbody id="vol-ranking-body"></tbody>
+          </table>
+        </div>
+        <p style="color: var(--text-secondary); font-size: 0.75rem; margin-top: 8px;">✅ … 最低取引量（$10,000）を達成すると名前に ✅ がつきます。</p>
       </div>
-      <p style="color: var(--text-secondary); font-size: 0.75rem; margin-top: 8px;">✅ … 最低取引量（$10,000）を達成すると名前に ✅ がつきます。</p>
     </div>
 
     <!-- 大会規約 -->
@@ -121,6 +127,6 @@
     </footer>
   </div>
 
-  <script src="app.js?v=5"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

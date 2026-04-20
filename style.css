@@ -150,6 +150,15 @@ button:active {
 .roi-negative { color: #f85149; }
 .baseline-warn { color: #f85149; }
 
+.blind-message {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.9;
+  white-space: pre-line;
+}
+
 /* 入賞圏ハイライト */
 .leaderboard-table tr.rank-prize {
   background: rgba(88, 166, 255, 0.08);

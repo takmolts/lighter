@@ -101,11 +101,51 @@ function renderTierDetail(container, tierIdx) {
     </div>`;
 }
 
+async function fetchBlindMode() {
+  try {
+    const res = await fetch(`blind.json?t=${Date.now()}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    if (!data.blindStartISO) return null;
+    const startMs = Date.parse(data.blindStartISO);
+    if (isNaN(startMs)) return null;
+    return Date.now() >= startMs ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+function applyBlindMode(blindData) {
+  const roiBlind = document.getElementById("roi-blind");
+  const volBlind = document.getElementById("vol-blind");
+  const roiContent = document.getElementById("roi-content");
+  const volContent = document.getElementById("vol-content");
+
+  if (blindData) {
+    const msg = blindData.message || "";
+    roiBlind.textContent = msg;
+    volBlind.textContent = msg;
+    roiBlind.style.display = "";
+    volBlind.style.display = "";
+    roiContent.style.display = "none";
+    volContent.style.display = "none";
+    return true;
+  }
+  roiBlind.style.display = "none";
+  volBlind.style.display = "none";
+  roiContent.style.display = "";
+  volContent.style.display = "";
+  return false;
+}
+
 async function fetchData() {
   const statusEl = document.getElementById("status");
   statusEl.innerText = "データを取得しています...";
 
   try {
+    const blindData = await fetchBlindMode();
+    const isBlind = applyBlindMode(blindData);
+
     const dataResponse = await fetch(`data.json?t=${Date.now()}`);
 
     if (!dataResponse.ok) {
@@ -120,13 +160,15 @@ async function fetchData() {
     const tierIdx = totalVolume != null ? getActiveTierIndex(totalVolume) : 2;
     const tier = REWARD_TIERS[tierIdx];
 
-    // ROIランキング（ROI降順）
-    const roiSorted = [...participants].sort((a, b) => b.roi - a.roi);
-    renderRoiRanking(roiSorted, tier.roi.length);
+    if (!isBlind) {
+      // ROIランキング（ROI降順）
+      const roiSorted = [...participants].sort((a, b) => b.roi - a.roi);
+      renderRoiRanking(roiSorted, tier.roi.length);
 
-    // Volumeランキング（Volume降順）
-    const volSorted = [...participants].sort((a, b) => b.tradingVolume - a.tradingVolume);
-    renderVolRanking(volSorted, totalVolume, tier.vol.length);
+      // Volumeランキング（Volume降順）
+      const volSorted = [...participants].sort((a, b) => b.tradingVolume - a.tradingVolume);
+      renderVolRanking(volSorted, totalVolume, tier.vol.length);
+    }
 
     // リワードテーブル
     renderRewardTables(totalVolume);
