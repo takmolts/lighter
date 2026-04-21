@@ -1,8 +1,8 @@
 {
   "meta": {
-    "fetchedAtUTC": "2026-04-21T02:36:57.246666Z",
+    "fetchedAtUTC": "2026-04-20T15:00:00Z",
     "totalCount": 53,
-    "totalVolumeUSDT": 22139317.997137025
+    "totalVolumeUSDT": 22520450.710752033
   },
   "participants": [
     {
@@ -417,9 +417,9 @@
       "displayName": "Rosita",
       "xAccount": "@Rosita1925064",
       "tradingVolume": 54511.21425999999,
-      "baseline": 374.100941,
-      "roi": -1.4107213913690682,
-      "pnl": -5.277521999999976,
+      "baseline": 374.10094100000003,
+      "roi": -1.4107213913690833,
+      "pnl": -5.277522000000033,
       "score": 0,
       "rank": 38
     },
@@ -493,7 +493,7 @@
       "address": "0x0DF5...2277",
       "displayName": "楓",
       "xAccount": "@kaede_app",
-      "tradingVolume": 5074869.913753016,
+      "tradingVolume": 5456002.627368025,
       "baseline": 320.0,
       "roi": -63.57579437500001,
       "pnl": -203.442542,
@@ -505,9 +505,9 @@
       "displayName": "ライク",
       "xAccount": "@takun919745",
       "tradingVolume": 5306.091633,
-      "baseline": 200.39999999999998,
-      "roi": -47.64545758483033,
-      "pnl": -95.48149699999998,
+      "baseline": 205.89999999999998,
+      "roi": -49.04395191840699,
+      "pnl": -100.98149699999998,
       "score": 0,
       "rank": 46
     },
